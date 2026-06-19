@@ -1093,25 +1093,43 @@ function speakSentence(sentence, lang) {
   ttsSpeak(sentence, lang || 'en-US');
 }
 
-function ttsSpeak(text, lang) {
-  if ('speechSynthesis' in window) {
-    window.speechSynthesis.cancel();
-    const utt = new SpeechSynthesisUtterance(text);
-    utt.lang = lang || 'en-US';
-    utt.rate = 0.82;
-    utt.pitch = 1;
-    // 显式查找对应语言的语音包，避免 fallback 到中文
-    const voices = window.speechSynthesis.getVoices();
-    const targetVoice = voices.find(v => v.lang.startsWith(lang?.split('-')[0]) || v.lang === lang);
-    if (targetVoice) utt.voice = targetVoice;
-    window.speechSynthesis.speak(utt);
-  }
+// 语音列表缓存，等待加载完成
+let _voicesLoaded = false;
+let _voicesList = [];
+function loadVoices() {
+  return new Promise(resolve => {
+    if (_voicesLoaded && _voicesList.length > 0) { resolve(_voicesList); return; }
+    const check = () => {
+      _voicesList = window.speechSynthesis.getVoices();
+      if (_voicesList.length > 0) {
+        _voicesLoaded = true;
+        resolve(_voicesList);
+      } else {
+        setTimeout(check, 100);
+      }
+    };
+    // Chrome: onvoiceschanged fires when list is ready
+    window.speechSynthesis.onvoiceschanged = () => {
+      _voicesList = window.speechSynthesis.getVoices();
+      _voicesLoaded = true;
+      resolve(_voicesList);
+    };
+    check();
+  });
 }
 
-// 预加载语音列表（某些浏览器需要主动触发）
-if ('speechSynthesis' in window) {
-  window.speechSynthesis.getVoices();
-  window.speechSynthesis.onvoiceschanged = () => window.speechSynthesis.getVoices();
+function ttsSpeak(text, lang) {
+  if (!('speechSynthesis' in window) || !text) return;
+  window.speechSynthesis.cancel();
+  const utt = new SpeechSynthesisUtterance(text);
+  utt.lang = lang || 'en-US';
+  utt.rate = 0.82;
+  utt.pitch = 1;
+  loadVoices().then(voices => {
+    const targetVoice = voices.find(v => v.lang === lang || v.lang.startsWith(lang?.split('-')[0]));
+    if (targetVoice) utt.voice = targetVoice;
+    window.speechSynthesis.speak(utt);
+  });
 }
 
 // ========== 主题切换 ==========
