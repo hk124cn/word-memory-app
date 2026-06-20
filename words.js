@@ -56,5 +56,10 @@ var EMBEDDED_JA = [
   {"word":"案内","reading":"あんない","romaji":"annai","meaning":"引导、指南、介绍","example":"会議室まで案内してください。","example_cn":"请带我去会议室。","tip":"案（方案）+ 内（里面）= 把别人带进里面。「案内所」= 问询处/服务台","date_added":"2026-06-20","lang":"ja"},
   {"word":"領収書","reading":"りょうしゅうしょ","romaji":"ryōshūsho","meaning":"发票、收据","example":"領収書をください。","example_cn":"请给我发票。","tip":"領（领取）+ 収（收取）+ 書（文件）= 出差报销第一神器。结账后必说这句","date_added":"2026-06-20","lang":"ja"},
   {"word":"両替","reading":"りょうがえ","romaji":"ryōgae","meaning":"货币兑换","example":"どこでドルに両替できますか。","example_cn":"在哪里可以兑换美元？","tip":"両（两个）+ 替（替换）= 一种货币换成另一种。机场「外貨両替」= 外币兑换窗口","date_added":"2026-06-20","lang":"ja"},
-  {"word":"取引先","reading":"とりひきさき","romaji":"torihikisaki","meaning":"客户、交易对象","example":"明日、取引先を訪問します。","example_cn":"明天我去拜访客户。","tip":"取引（交易）+ 先（对象）= 商务客户。「取引先訪問」= 客户拜访，出差核心目的","date_added":"2026-06-20","lang":"ja"}
+  {"word":"取引先","reading":"とりひきさき","romaji":"torihikisaki","meaning":"客户、交易对象","example":"明日、取引先を訪問します。","example_cn":"明天我去拜访客户。","tip":"取引（交易）+ 先（对象）= 商务客户。「取引先訪問」= 客户拜访，出差核心目的","date_added":"2026-06-20","lang":"ja"},
+  {"word":"接待","reading":"せったい","romaji":"settai","meaning":"招待、款待、宴请","example":"今夜は得意先を接待します。","example_cn":"今晚我要招待客户。","tip":"接（迎接）+ 待（对待）= 接待。日本商务文化核心词，预算走「接待費」= 业务招待费","date_added":"2026-06-20","lang":"ja"},
+  {"word":"土産","reading":"みやげ","romaji":"miyage","meaning":"特产、伴手礼","example":"日本の土産を買いたいです。","example_cn":"我想买日本特产（伴手礼）。","tip":"「お土産」是更礼貌的说法。出差回程必备，问同事：「土産は何がいい？」","date_added":"2026-06-20","lang":"ja"},
+  {"word":"報告書","reading":"ほうこくしょ","romaji":"hōkokusho","meaning":"报告、报告书","example":"出張報告書を提出してください。","example_cn":"请提交出差报告。","tip":"報告（汇报）+ 書（文件）= 报告书。出差回公司第一件事就是写「出張報告書」","date_added":"2026-06-20","lang":"ja"},
+  {"word":"宴会","reading":"えんかい","romaji":"enkai","meaning":"宴会、聚餐","example":"送別会と歓迎宴会があります。","example_cn":"有送别会和欢迎宴会。","tip":"宴（宴席）+ 会（聚会）= 宴会。日企常以「忘年会」「新年会」形式举办公司聚餐","date_added":"2026-06-20","lang":"ja"},
+  {"word":"訪問","reading":"ほうもん","romaji":"hōmon","meaning":"访问、拜访","example":"アポイントなしで訪問します。","example_cn":"没有预约就登门拜访。","tip":"訪（拜访）+ 問（询问）= 上门访问。「訪問先」= 拜访对象，比「訪問客」更常用","date_added":"2026-06-20","lang":"ja"}
 ];
