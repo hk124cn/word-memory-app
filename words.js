@@ -49,5 +49,12 @@ var EMBEDDED_JA = [
   {"word":"交换","reading":"こうかん","romaji":"kōkan","meaning":"交换","example":"名刺を交換しましょう。","example_cn":"我们来交换名片吧。","tip":"交（交叉）+ 换（更换）= 交换名片/联系方式/意见都用这个动词","date_added":"2026-06-19","lang":"ja"},
   {"word":"感謝","reading":"かんしゃ","romaji":"kansha","meaning":"感谢","example":"ご協力に感謝いたします。","example_cn":"感谢您的配合。","tip":"感（感受）+ 謝（道歉/感谢）= 正式场合的感谢。邮件结尾常用「感謝いたします」","date_added":"2026-06-19","lang":"ja"},
   {"word":"お別れ","reading":"おわかれ","romaji":"owakare","meaning":"告别、送别","example":"お別れの挨拶をしましょう。","example_cn":"我们来告别吧。","tip":"別れ（分别）加敬语。「お別れの挨拶」= 告别致辞，出差结束时用","date_added":"2026-06-19","lang":"ja"},
-  {"word":"約束","reading":"やくそく","romaji":"yakusoku","meaning":"约定、承诺","example":"約束の時間に遅れません。","example_cn":"我不会迟到约定时间。","tip":"約（约束）+ 束（捆绑）= 把彼此约束在一起 = 约定。迟到=「約束を守れなかった」","date_added":"2026-06-19","lang":"ja"}
+  {"word":"約束","reading":"やくそく","romaji":"yakusoku","meaning":"约定、承诺","example":"約束の時間に遅れません。","example_cn":"我不会迟到约定时间。","tip":"約（约束）+ 束（捆绑）= 把彼此约束在一起 = 约定。迟到=「約束を守れなかった」","date_added":"2026-06-19","lang":"ja"},
+
+  // ===== Day 7: 出差综合 =====
+  {"word":"出張","reading":"しゅっちょう","romaji":"shutchō","meaning":"出差","example":"来週、大阪へ出張に行きます。","example_cn":"下周我去大阪出差。","tip":"出（出去）+ 張（展开）= 出去展开业务。日企最常说：「出張中です」= 在出差中","date_added":"2026-06-20","lang":"ja"},
+  {"word":"案内","reading":"あんない","romaji":"annai","meaning":"引导、指南、介绍","example":"会議室まで案内してください。","example_cn":"请带我去会议室。","tip":"案（方案）+ 内（里面）= 把别人带进里面。「案内所」= 问询处/服务台","date_added":"2026-06-20","lang":"ja"},
+  {"word":"領収書","reading":"りょうしゅうしょ","romaji":"ryōshūsho","meaning":"发票、收据","example":"領収書をください。","example_cn":"请给我发票。","tip":"領（领取）+ 収（收取）+ 書（文件）= 出差报销第一神器。结账后必说这句","date_added":"2026-06-20","lang":"ja"},
+  {"word":"両替","reading":"りょうがえ","romaji":"ryōgae","meaning":"货币兑换","example":"どこでドルに両替できますか。","example_cn":"在哪里可以兑换美元？","tip":"両（两个）+ 替（替换）= 一种货币换成另一种。机场「外貨両替」= 外币兑换窗口","date_added":"2026-06-20","lang":"ja"},
+  {"word":"取引先","reading":"とりひきさき","romaji":"torihikisaki","meaning":"客户、交易对象","example":"明日、取引先を訪問します。","example_cn":"明天我去拜访客户。","tip":"取引（交易）+ 先（对象）= 商务客户。「取引先訪問」= 客户拜访，出差核心目的","date_added":"2026-06-20","lang":"ja"}
 ];
