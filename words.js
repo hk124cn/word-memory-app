@@ -61,5 +61,12 @@ var EMBEDDED_JA = [
   {"word":"土産","reading":"みやげ","romaji":"miyage","meaning":"特产、伴手礼","example":"日本の土産を買いたいです。","example_cn":"我想买日本特产（伴手礼）。","tip":"「お土産」是更礼貌的说法。出差回程必备，问同事：「土産は何がいい？」","date_added":"2026-06-20","lang":"ja"},
   {"word":"報告書","reading":"ほうこくしょ","romaji":"hōkokusho","meaning":"报告、报告书","example":"出張報告書を提出してください。","example_cn":"请提交出差报告。","tip":"報告（汇报）+ 書（文件）= 报告书。出差回公司第一件事就是写「出張報告書」","date_added":"2026-06-20","lang":"ja"},
   {"word":"宴会","reading":"えんかい","romaji":"enkai","meaning":"宴会、聚餐","example":"送別会と歓迎宴会があります。","example_cn":"有送别会和欢迎宴会。","tip":"宴（宴席）+ 会（聚会）= 宴会。日企常以「忘年会」「新年会」形式举办公司聚餐","date_added":"2026-06-20","lang":"ja"},
-  {"word":"訪問","reading":"ほうもん","romaji":"hōmon","meaning":"访问、拜访","example":"アポイントなしで訪問します。","example_cn":"没有预约就登门拜访。","tip":"訪（拜访）+ 問（询问）= 上门访问。「訪問先」= 拜访对象，比「訪問客」更常用","date_added":"2026-06-20","lang":"ja"}
+  {"word":"訪問","reading":"ほうもん","romaji":"hōmon","meaning":"访问、拜访","example":"アポイントなしで訪問します。","example_cn":"没有预约就登门拜访。","tip":"訪（拜访）+ 問（询问）= 上门访问。「訪問先」= 拜访对象，比「訪問客」更常用","date_added":"2026-06-20","lang":"ja"},
+
+  // ===== Day 9: 出差综合 =====
+  {"word":"出発","reading":"しゅっぱつ","romaji":"shuppatsu","meaning":"出发、启程","example":"出発は朝7時です。","example_cn":"出发时间是早上7点。","tip":"出（出去）+ 発（出发）= 启程。机场显示屏上「出発」= Departure，与「到着」配对","date_added":"2026-06-21","lang":"ja"},
+  {"word":"禁煙","reading":"きんえん","romaji":"kin'en","meaning":"禁烟","example":"禁煙席をお願いします。","example_cn":"请给我禁烟座位。","tip":"禁（禁止）+ 煙（烟）= 禁止吸烟。「禁煙ルーム」= 无烟房，日本大部分酒店默认禁烟","date_added":"2026-06-21","lang":"ja"},
+  {"word":"打ち合わせ","reading":"うちあわせ","romaji":"uchiawase","meaning":"碰头会、事先商谈","example":"明日の打ち合わせは10時からです。","example_cn":"明天的碰头会是10点开始。","tip":"打ち（敲打）+ 合わせ（合在一起）= 碰面统一意见。比「会議」更口语，日企日常高频词","date_added":"2026-06-21","lang":"ja"},
+  {"word":"通訳","reading":"つうやく","romaji":"tsūyaku","meaning":"口译、翻译","example":"通訳を手配してもらえますか。","example_cn":"能帮我安排翻译吗？","tip":"通（通达）+ 訳（翻译）= 口译。「通訳」是口译，「翻訳」是笔译，区分清楚","date_added":"2026-06-21","lang":"ja"},
+  {"word":"手配","reading":"てはい","romaji":"tehai","meaning":"安排、筹备","example":"ホテルを手配してください。","example_cn":"请帮我安排酒店。","tip":"手（手）+ 配（分配）= 亲手安排。出差万能动词，订酒店/翻译/出租都能用「手配する」","date_added":"2026-06-21","lang":"ja"}
 ];
