@@ -87,5 +87,12 @@ var EMBEDDED_JA = [
   {"word":"入国審査","reading":"にゅうこくしんさ","romaji":"nyūkokushinsa","meaning":"入境审查","example":"入国審査に30分かかりました。","example_cn":"入境审查花了30分钟。","tip":"入国（入境）+ 審査（审查）= 入境检查。机场流程必经环节，外国人入境时走「外国人用」通道","date_added":"2026-06-22","lang":"ja"},
   {"word":"Wi-Fi","reading":"わいふぁい","romaji":"wai-fai","meaning":"无线网络","example":"ホテルのWi-Fiパスワードを教えてください。","example_cn":"请告诉我酒店的Wi-Fi密码。","tip":"Wireless Fidelity 的缩写。入住酒店第一问：「Wi-Fiはありますか」= 有Wi-Fi吗？","date_added":"2026-06-22","lang":"ja"},
   {"word":"領収","reading":"りょうしゅう","romaji":"ryōshū","meaning":"收取、领受","example":"ご領収の印を押してください。","example_cn":"请盖上收讫印章。","tip":"領（领取）+ 収（收纳）= 正式收取。日企发票上「領収印」= 收讫章，「領収済」= 已收款","date_added":"2026-06-22","lang":"ja"},
-  {"word":"出張先","reading":"しゅっちょうさき","romaji":"shutchōsaki","meaning":"出差目的地","example":"出張先から報告します。","example_cn":"我从出差地汇报。","tip":"出張（出差）+ 先（地点/对象）= 出差目的地。说「出張先です」= 我现在在出差地","date_added":"2026-06-22","lang":"ja"}
+  {"word":"出張先","reading":"しゅっちょうさき","romaji":"shutchōsaki","meaning":"出差目的地","example":"出張先から報告します。","example_cn":"我从出差地汇报。","tip":"出張（出差）+ 先（地点/对象）= 出差目的地。说「出張先です」= 我现在在出差地","date_added":"2026-06-22","lang":"ja"},
+
+  // ===== Day 12: 出差实用补充2 =====
+  {"word":"日程","reading":"にってい","romaji":"nittei","meaning":"日程安排","example":"出張の日程を確認してください。","example_cn":"请确认出差日程。","tip":"日（日期）+ 程（进程）= 按日期排的行程。出差前必做「日程表」= 行程表","date_added":"2026-06-22","lang":"ja"},
+  {"word":"サイン","reading":"さいん","romaji":"sain","meaning":"签名、签字","example":"契約書にサインしてください。","example_cn":"请在合同上签字。","tip":"sign 的外来语。签合同/签收快递都用「サイン」，比「署名」更口语化","date_added":"2026-06-22","lang":"ja"},
+  {"word":"宅配","reading":"たくはい","romaji":"takuhai","meaning":"快递配送","example":"荷物を宅配で送ります。","example_cn":"我用快递把行李寄送。","tip":"宅（家）+ 配（配送）= 送到家。出差行李太多可走「宅配便」= 快递，机场/酒店都有此服务","date_added":"2026-06-22","lang":"ja"},
+  {"word":"謝罪","reading":"しゃざい","romaji":"shazai","meaning":"道歉、致歉","example":"遅刻について謝罪しました。","example_cn":"我为迟到进行了道歉。","tip":"謝（道歉）+ 罪（过失）= 对过失正式道歉。商务场合比「申し訳ありません」更正式，邮件/声明中常用","date_added":"2026-06-22","lang":"ja"},
+  {"word":"待合室","reading":"まちあいしつ","romaji":"machiishitsu","meaning":"候车室、等候室","example":"待合室で待ちましょう。","example_cn":"我们在候车室等吧。","tip":"待合（等候）+ 室（房间）= 带座椅的等候空间。机场/医院/车站都有「待合室」","date_added":"2026-06-22","lang":"ja"}
 ];
