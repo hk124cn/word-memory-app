@@ -75,5 +75,12 @@ var EMBEDDED_JA = [
   {"word":"見積書","reading":"みつもりしょ","romaji":"mitsumorisho","meaning":"报价单、估算书","example":"見積書をメールで送ってください。","example_cn":"请把报价单用邮件发给我。","tip":"見（看）+ 積もり（估算）+ 書（文件）= 书面报价。出差谈合作核心文件，日企商务必用书面形式","date_added":"2026-06-21","lang":"ja"},
   {"word":"契約","reading":"けいやく","romaji":"keiyaku","meaning":"合同、契约","example":"契約書にサインをお願いします。","example_cn":"请在合同上签字。","tip":"契（誓约）+ 約（约定）= 合同。固定搭配「契約を結ぶ」= 签合同，「契約書」= 合同书","date_added":"2026-06-21","lang":"ja"},
   {"word":"空港バス","reading":"くうこうばす","romaji":"kūkō basu","meaning":"机场大巴","example":"空港バスの乗り場はどこですか。","example_cn":"机场大巴乘车点在哪里？","tip":"空港（机场）+ バス（巴士）= 机场大巴。也叫「リムジンバス」，比打车便宜且直达市中心","date_added":"2026-06-21","lang":"ja"},
-  {"word":"交渉","reading":"こうしょう","romaji":"kōshō","meaning":"谈判、交涉","example":"価格の交渉をしたいです。","example_cn":"我想谈一下价格。","tip":"交（互相）+ 渉（涉足）= 互相试探底线。商务谈判核心词，「価格交渉」= 价格谈判，出差必遇场景","date_added":"2026-06-21","lang":"ja"}
+  {"word":"交渉","reading":"こうしょう","romaji":"kōshō","meaning":"谈判、交涉","example":"価格の交渉をしたいです。","example_cn":"我想谈一下价格。","tip":"交（互相）+ 渉（涉足）= 互相试探底线。商务谈判核心词，「価格交渉」= 价格谈判，出差必遇场景","date_added":"2026-06-21","lang":"ja"},
+
+  // ===== Day 11: 出差实用补充 =====
+  {"word":"ビザ","reading":"びざ","romaji":"biza","meaning":"签证","example":"日本ビザの申請はどうしますか。","example_cn":"日本签证怎么申请？","tip":"visa 的外来语。出差日本必办，说「ビザを申請する」= 申请签证。商务签叫「ビジネスビザ」","date_added":"2026-06-22","lang":"ja"},
+  {"word":"入国審査","reading":"にゅうこくしんさ","romaji":"nyūkokushinsa","meaning":"入境审查","example":"入国審査に30分かかりました。","example_cn":"入境审查花了30分钟。","tip":"入国（入境）+ 審査（审查）= 入境检查。机场流程必经环节，外国人入境时走「外国人用」通道","date_added":"2026-06-22","lang":"ja"},
+  {"word":"Wi-Fi","reading":"わいふぁい","romaji":"wai-fai","meaning":"无线网络","example":"ホテルのWi-Fiパスワードを教えてください。","example_cn":"请告诉我酒店的Wi-Fi密码。","tip":"Wireless Fidelity 的缩写。入住酒店第一问：「Wi-Fiはありますか」= 有Wi-Fi吗？","date_added":"2026-06-22","lang":"ja"},
+  {"word":"領収","reading":"りょうしゅう","romaji":"ryōshū","meaning":"收取、领受","example":"ご領収の印を押してください。","example_cn":"请盖上收讫印章。","tip":"領（领取）+ 収（收纳）= 正式收取。日企发票上「領収印」= 收讫章，「領収済」= 已收款","date_added":"2026-06-22","lang":"ja"},
+  {"word":"出張先","reading":"しゅっちょうさき","romaji":"shutchōsaki","meaning":"出差目的地","example":"出張先から報告します。","example_cn":"我从出差地汇报。","tip":"出張（出差）+ 先（地点/对象）= 出差目的地。说「出張先です」= 我现在在出差地","date_added":"2026-06-22","lang":"ja"}
 ];
