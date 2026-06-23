@@ -106,5 +106,12 @@ var EMBEDDED_JA = [
   {"word":"残業","reading":"ざんぎょう","romaji":"zangyō","meaning":"加班","example":"今日は残業になりそうです。","example_cn":"今天可能要加班了。","tip":"残（剩余）+ 業（工作）= 剩下来还没做完的工作。日企文化关键词，常跟「残業手当」= 加班补贴","date_added":"2026-06-23","lang":"ja"},
   {"word":"定刻","reading":"ていこく","romaji":"teikoku","meaning":"准时、正点","example":"新幹線は定刻通りに出発しました。","example_cn":"新干线准时出发了。","tip":"定（固定）+ 刻（时刻）= 按固定时刻。日本的电车/新干线以「定刻通り」闻名，几乎分秒不差","date_added":"2026-06-23","lang":"ja"},
   {"word":"振込","reading":"ふりこみ","romaji":"furikomi","meaning":"转账、汇款","example":"代金を銀行口座に振り込みました。","example_cn":"货款已转账到银行账户。","tip":"振り（摇动→划拨）+ 込み（放入）= 把钱划拨进去。商务结算常用，「振込手数料」= 转账手续费","date_added":"2026-06-23","lang":"ja"},
-  {"word":"再確認","reading":"さいかくにん","romaji":"saikakunin","meaning":"再次确认、复核","example":"フライトの時間を再確認してください。","example_cn":"请再确认一下航班时间。","tip":"再（再次）+ 確認（确认）= 双重确认。出差前必做之事，日企文化讲究「念のため再確認」= 保险起见再确认","date_added":"2026-06-23","lang":"ja"}
+  {"word":"再確認","reading":"さいかくにん","romaji":"saikakunin","meaning":"再次确认、复核","example":"フライトの時間を再確認してください。","example_cn":"请再确认一下航班时间。","tip":"再（再次）+ 確認（确认）= 双重确认。出差前必做之事，日企文化讲究「念のため再確認」= 保险起见再确认","date_added":"2026-06-23","lang":"ja"},
+
+  // ===== Day 14: 出差应急与社交 =====
+  {"word":"遅刻","reading":"ちこく","romaji":"chikoku","meaning":"迟到","example":"会議に遅刻してしまいました。","example_cn":"我开会迟到了。","tip":"遅（迟）+ 刻（时刻）= 比规定时刻晚。日企迟到是大忌，提前5分钟到达叫「5分前着」","date_added":"2026-06-23","lang":"ja"},
+  {"word":"風邪","reading":"かぜ","romaji":"kaze","meaning":"感冒","example":"出張中に風邪をひきました。","example_cn":"出差期间我感冒了。","tip":"風（风）+ 邪（邪气）= 受风寒。出差身体不适时说「風邪をひきました」= 我感冒了，可请假休息","date_added":"2026-06-23","lang":"ja"},
+  {"word":"荷物受取","reading":"にもつうけとり","romaji":"nimotsu uketori","meaning":"行李提取","example":"荷物受取所は1階です。","example_cn":"行李提取处在1层。","tip":"荷物（行李）+ 受取（领取）= 取行李处。机场到达后找「荷物受取所」= Baggage Claim","date_added":"2026-06-23","lang":"ja"},
+  {"word":"税金","reading":"ぜいきん","romaji":"zeikin","meaning":"税金、税费","example":"この商品は税金込みですか。","example_cn":"这个商品含税吗？","tip":"税（税收）+ 金（金钱）= 税费。购物时问「税込み？」= 含税吗？日本标价常写「税抜」= 不含税","date_added":"2026-06-23","lang":"ja"},
+  {"word":"喫煙","reading":"きつえん","romaji":"kitsuen","meaning":"吸烟","example":"喫煙所はどこですか。","example_cn":"吸烟区在哪里？","tip":"喫（吸）+ 煙（烟）= 吸烟。与「禁煙」配对，找吸烟区说「喫煙所は？」。日本室内禁烟严格，别在非指定区抽烟","date_added":"2026-06-23","lang":"ja"}
 ];
