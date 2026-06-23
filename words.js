@@ -94,5 +94,12 @@ var EMBEDDED_JA = [
   {"word":"サイン","reading":"さいん","romaji":"sain","meaning":"签名、签字","example":"契約書にサインしてください。","example_cn":"请在合同上签字。","tip":"sign 的外来语。签合同/签收快递都用「サイン」，比「署名」更口语化","date_added":"2026-06-22","lang":"ja"},
   {"word":"宅配","reading":"たくはい","romaji":"takuhai","meaning":"快递配送","example":"荷物を宅配で送ります。","example_cn":"我用快递把行李寄送。","tip":"宅（家）+ 配（配送）= 送到家。出差行李太多可走「宅配便」= 快递，机场/酒店都有此服务","date_added":"2026-06-22","lang":"ja"},
   {"word":"謝罪","reading":"しゃざい","romaji":"shazai","meaning":"道歉、致歉","example":"遅刻について謝罪しました。","example_cn":"我为迟到进行了道歉。","tip":"謝（道歉）+ 罪（过失）= 对过失正式道歉。商务场合比「申し訳ありません」更正式，邮件/声明中常用","date_added":"2026-06-22","lang":"ja"},
-  {"word":"待合室","reading":"まちあいしつ","romaji":"machiishitsu","meaning":"候车室、等候室","example":"待合室で待ちましょう。","example_cn":"我们在候车室等吧。","tip":"待合（等候）+ 室（房间）= 带座椅的等候空间。机场/医院/车站都有「待合室」","date_added":"2026-06-22","lang":"ja"}
+  {"word":"待合室","reading":"まちあいしつ","romaji":"machiishitsu","meaning":"候车室、等候室","example":"待合室で待ちましょう。","example_cn":"我们在候车室等吧。","tip":"待合（等候）+ 室（房间）= 带座椅的等候空间。机场/医院/车站都有「待合室」","date_added":"2026-06-22","lang":"ja"},
+
+  // ===== Day 13: 出差实用补充3 =====
+  {"word":"経費","reading":"けいひ","romaji":"keihi","meaning":"经费、费用报销","example":"出張の経費を精算してください。","example_cn":"请报销出差经费。","tip":"経（经由）+ 費（费用）= 出差花掉的钱。月末必填「経費精算書」= 费用报销单","date_added":"2026-06-23","lang":"ja"},
+  {"word":"残業","reading":"ざんぎょう","romaji":"zangyō","meaning":"加班","example":"今日は残業になりそうです。","example_cn":"今天可能要加班了。","tip":"残（剩余）+ 業（工作）= 剩下来还没做完的工作。日企文化关键词，常跟「残業手当」= 加班补贴","date_added":"2026-06-23","lang":"ja"},
+  {"word":"定刻","reading":"ていこく","romaji":"teikoku","meaning":"准时、正点","example":"新幹線は定刻通りに出発しました。","example_cn":"新干线准时出发了。","tip":"定（固定）+ 刻（时刻）= 按固定时刻。日本的电车/新干线以「定刻通り」闻名，几乎分秒不差","date_added":"2026-06-23","lang":"ja"},
+  {"word":"振込","reading":"ふりこみ","romaji":"furikomi","meaning":"转账、汇款","example":"代金を銀行口座に振り込みました。","example_cn":"货款已转账到银行账户。","tip":"振り（摇动→划拨）+ 込み（放入）= 把钱划拨进去。商务结算常用，「振込手数料」= 转账手续费","date_added":"2026-06-23","lang":"ja"},
+  {"word":"再確認","reading":"さいかくにん","romaji":"saikakunin","meaning":"再次确认、复核","example":"フライトの時間を再確認してください。","example_cn":"请再确认一下航班时间。","tip":"再（再次）+ 確認（确认）= 双重确认。出差前必做之事，日企文化讲究「念のため再確認」= 保险起见再确认","date_added":"2026-06-23","lang":"ja"}
 ];
