@@ -118,5 +118,12 @@ var EMBEDDED_JA = [
   {"word":"風邪","reading":"かぜ","romaji":"kaze","meaning":"感冒","example":"出張中に風邪をひきました。","example_cn":"出差期间我感冒了。","tip":"風（风）+ 邪（邪气）= 受风寒。出差身体不适时说「風邪をひきました」= 我感冒了，可请假休息","date_added":"2026-06-23","lang":"ja"},
   {"word":"荷物受取","reading":"にもつうけとり","romaji":"nimotsu uketori","meaning":"行李提取","example":"荷物受取所は1階です。","example_cn":"行李提取处在1层。","tip":"荷物（行李）+ 受取（领取）= 取行李处。机场到达后找「荷物受取所」= Baggage Claim","date_added":"2026-06-23","lang":"ja"},
   {"word":"税金","reading":"ぜいきん","romaji":"zeikin","meaning":"税金、税费","example":"この商品は税金込みですか。","example_cn":"这个商品含税吗？","tip":"税（税收）+ 金（金钱）= 税费。购物时问「税込み？」= 含税吗？日本标价常写「税抜」= 不含税","date_added":"2026-06-23","lang":"ja"},
-  {"word":"喫煙","reading":"きつえん","romaji":"kitsuen","meaning":"吸烟","example":"喫煙所はどこですか。","example_cn":"吸烟区在哪里？","tip":"喫（吸）+ 煙（烟）= 吸烟。与「禁煙」配对，找吸烟区说「喫煙所は？」。日本室内禁烟严格，别在非指定区抽烟","date_added":"2026-06-23","lang":"ja"}
+  {"word":"喫煙","reading":"きつえん","romaji":"kitsuen","meaning":"吸烟","example":"喫煙所はどこですか。","example_cn":"吸烟区在哪里？","tip":"喫（吸）+ 煙（烟）= 吸烟。与「禁煙」配对，找吸烟区说「喫煙所は？」。日本室内禁烟严格，别在非指定区抽烟","date_added":"2026-06-23","lang":"ja"},
+
+  // ===== Day 15: 出差文化与城市体验 =====
+  {"word":"温泉","reading":"おんせん","romaji":"onsen","meaning":"温泉","example":"出張の後に温泉で疲れを癒します。","example_cn":"出差后泡温泉缓解疲劳。","tip":"温（温热）+ 泉（泉水）= 天然热水。日本文化名片之一，「温泉旅行」= 温泉之旅。出差顺道必体验","date_added":"2026-06-24","lang":"ja"},
+  {"word":"新幹線","reading":"しんかんせん","romaji":"shinkansen","meaning":"新干线、高铁","example":"新幹線で東京から大阪まで行きます。","example_cn":"我坐新干线从东京去大阪。","tip":"新（全新）+ 幹線（干线）= 全新高速铁路。日本出差首选，速度快且几乎不误点，固定搭配「新幹線に乗る」= 乘坐新干线","date_added":"2026-06-24","lang":"ja"},
+  {"word":"お土産","reading":"おみやげ","romaji":"omiyage","meaning":"伴手礼、特产","example":"出張先でお土産を買いました。","example_cn":"我在出差地买了伴手礼。","tip":"土産（特产/礼物）加敬语「お」。日本商务文化：出差/旅行回程必带「地元のお土産」= 当地特产给同事","date_added":"2026-06-24","lang":"ja"},
+  {"word":"両替所","reading":"りょうがえじょ","romaji":"ryōgaejo","meaning":"外币兑换处","example":"空港の両替所はどこですか。","example_cn":"机场的外币兑换处在哪里？","tip":"両替（兑换）+ 所（场所）= 兑换点。机场/银行/便利店都有。日本银行/邮局比机场汇率更划算","date_added":"2026-06-24","lang":"ja"},
+  {"word":"紛失","reading":"ふんしつ","romaji":"funshitsu","meaning":"遗失、丢失","example":"パスポートを紛失しました。","example_cn":"我把护照弄丢了。","tip":"紛（混乱）+ 失（丢失）= 在混乱中丢失。比「なくす」更正式，商务紧急情况必用，丢东西后立刻去「紛失届」= 报失单","date_added":"2026-06-24","lang":"ja"}
 ];
