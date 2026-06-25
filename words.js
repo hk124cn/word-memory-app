@@ -150,4 +150,11 @@ var EMBEDDED_JA = [
   {"word":"出張手当","reading":"しゅっちょうてあて","romaji":"shutchōteate","meaning":"出差补贴、差旅津贴","example":"出張手当は申請しましたか。","example_cn":"出差补贴申请了吗？","tip":"出張（出差）+ 手当（津贴/补贴）= 出差补贴。日企福利常见项，含住宿/餐饮/交通补助。问补贴标准：「出張手当はいくらですか」","date_added":"2026-06-25","lang":"ja"},
   {"word":"アレルギー","reading":"あれるぎー","romaji":"arerugī","meaning":"过敏（食物/药物）","example":"甲殻類のアレルギーがあります。","example_cn":"我对甲壳类过敏。","tip":"Allergie 的外来语。点餐/宴会前必说：「アレルギーがあります」= 我有过敏原。日企宴会礼仪：提前告知厨师避免事故","date_added":"2026-06-25","lang":"ja"},
   {"word":"お元気","reading":"おげんき","romaji":"ogenki","meaning":"精神、健康（问候）","example":"お元気でお過ごしですか。","example_cn":"您过得还好吗？","tip":"元気（健康/精神）加敬语「お」。问候客户/同事开场白「お元気ですか」= 您好吗？比「最近どう」更正式","date_added":"2026-06-25","lang":"ja"}
+
+  // ===== Day 18: 出差支付·审批·库存·结算 =====
+  ,{"word":"支払","reading":"しはらい","romaji":"shiharai","meaning":"支付、付款","example":"ホテルの費用を支払います。","example_cn":"我来支付酒店费用。","tip":"支（支付）+ 払（付款）= 付钱。酒店/餐厅结账都说「支払います」，商务报销必用","date_added":"2026-06-25","lang":"ja"}
+  ,{"word":"電子決済","reading":"でんしけっさい","romaji":"denshi kessai","meaning":"电子支付","example":"電子決済は使えますか。","example_cn":"可以用电子支付吗？","tip":"電子（电子）+ 決済（结算）= 无现金支付。日本越来越多店支持 PayPay/Suica 等电子支付","date_added":"2026-06-25","lang":"ja"}
+  ,{"word":"承認","reading":"しょうにん","romaji":"shōnin","meaning":"批准、认可","example":"上司の承認が必要です。","example_cn":"需要上级的批准。","tip":"承（接受）+ 認（认可）= 自上而下批准。出差费用/合同都要走「承認フロー」= 审批流程","date_added":"2026-06-25","lang":"ja"}
+  ,{"word":"在庫","reading":"ざいこ","romaji":"zaiko","meaning":"库存、存货","example":"在庫はまだありますか。","example_cn":"还有库存吗？","tip":"在（存在）+ 库（仓库）= 仓库里的存货。出差看客户仓库时必问，「在庫確認」= 库存盘点","date_added":"2026-06-25","lang":"ja"}
+  ,{"word":"精算","reading":"せいさん","romaji":"seisan","meaning":"结算、报销结算","example":"経費を精算してください。","example_cn":"请报销结算费用。","tip":"精（精确）+ 算（计算）= 精确结算费用。出差回来填「経費精算書」= 费用报销单，与「経費」搭配使用","date_added":"2026-06-25","lang":"ja"}
 ];
