@@ -26,7 +26,7 @@ var EMBEDDED_EN = [{"word": "proactive", "phonetic": "/proʊˈæktɪv/", "meanin
 , {"word":"compromise","phonetic":"/ˈkɒmprəmaɪz/","meaning":"妥协、折中、让步","example":"Both sides need to compromise to reach an agreement.","example_cn":"双方都需要妥协才能达成一致。","tip":"com（共同）+ promise（承诺）= 互相承诺各退一步。reach a compromise = 达成妥协","date_added":"2026-06-25","lang":"en"}
 , {"word":"collaborate","phonetic":"/kəˈlæbəreɪt/","meaning":"协作、合作","example":"Our teams need to collaborate more closely on this project.","example_cn":"我们的团队需要在这个项目上更紧密地协作。","tip":"col（共同）+ labor（劳动）+ ate = 一起劳动。比 cooperate 更强调深度参与","date_added":"2026-06-25","lang":"en"}, {"word":"sustainable","phonetic":"/səˈsteɪnəbl/","meaning":"可持续的、能维持的","example":"We need a sustainable growth strategy for the next five years.","example_cn":"我们需要一个未来五年可持续的增长策略。","tip":"sustain（维持）+ able（能…的）= 能一直维持下去的。ESG/环保/商业计划高频词","date_added":"2026-06-26","lang":"en"}, {"word":"adequate","phonetic":"/ˈædɪkwət/","meaning":"足够的、充分的","example":"The training provided was adequate but not exceptional.","example_cn":"提供的培训够用但谈不上出色。","tip":"ad（向）+ equ（相等）+ ate = 达到刚好相等的程度 = 刚刚够。注意不是"优秀的"，只是"刚好够"","date_added":"2026-06-26","lang":"en"}, {"word":"proficiency","phonetic":"/prəˈfɪʃənsi/","meaning":"熟练、精通","example":"English proficiency is a key requirement for this role.","example_cn":"英语熟练是这个岗位的关键要求。","tip":"pro（向前）+ ficiency（做）= 做事能做得很超前 = 精通。简历必备词：language proficiency = 语言能力","date_added":"2026-06-26","lang":"en"}, {"word":"retain","phonetic":"/rɪˈteɪn/","meaning":"保留、留住（人才/客户）","example":"Competitive salary helps retain top performers.","example_cn":"有竞争力的薪资有助于留住优秀人才。","tip":"re（回）+ tain（握住）= 紧紧握住不放。HR核心指标：retain talent = 留住人才","date_added":"2026-06-26","lang":"en"}, {"word":"benchmark","phonetic":"/ˈbentʃmɑːrk/","meaning":"基准、标杆、对标","example":"Let's benchmark our performance against industry leaders.","example_cn":"让我们把业绩与行业领导者对标比较。","tip":"bench（工作台）+ mark（标记）= 工作台上刻的基准线。商业高频词：set a benchmark = 树立标杆","date_added":"2026-06-26","lang":"en"}];
 
-// 日语词库（30词，出差主题，6天 × 5）
+// 日语词库（95词，出差主题，19天 × 5）
 // Day 1: 机场出发
 // Day 2: 酒店入住
 // Day 3: 餐厅用餐
@@ -157,4 +157,11 @@ var EMBEDDED_JA = [
   ,{"word":"承認","reading":"しょうにん","romaji":"shōnin","meaning":"批准、认可","example":"上司の承認が必要です。","example_cn":"需要上级的批准。","tip":"承（接受）+ 認（认可）= 自上而下批准。出差费用/合同都要走「承認フロー」= 审批流程","date_added":"2026-06-25","lang":"ja"}
   ,{"word":"在庫","reading":"ざいこ","romaji":"zaiko","meaning":"库存、存货","example":"在庫はまだありますか。","example_cn":"还有库存吗？","tip":"在（存在）+ 库（仓库）= 仓库里的存货。出差看客户仓库时必问，「在庫確認」= 库存盘点","date_added":"2026-06-25","lang":"ja"}
   ,{"word":"精算","reading":"せいさん","romaji":"seisan","meaning":"结算、报销结算","example":"経費を精算してください。","example_cn":"请报销结算费用。","tip":"精（精确）+ 算（计算）= 精确结算费用。出差回来填「経費精算書」= 费用报销单，与「経費」搭配使用","date_added":"2026-06-25","lang":"ja"}
+
+  // ===== Day 19: 出差酒店前台·海关·实用提示 =====
+  ,{"word":"受付","reading":"うけつけ","romaji":"uketsuke","meaning":"前台、接待处","example":"ホテルの受付は1階です。","example_cn":"酒店前台在一楼。","tip":"受（接受）+ 付（递交）= 接收来客的地方。酒店/公司/医院都有「受付」，「受付に聞いてください」= 请到前台咨询","date_added":"2026-06-26","lang":"ja"}
+  ,{"word":"滞在","reading":"たいざい","romaji":"taizai","meaning":"停留、逗留、住宿","example":"出張の滞在期間は3日間です。","example_cn":"出差的停留时间是3天。","tip":"滞（滞留）+ 在（存在于）= 停留在某地。「長期滞在」= 长期停留，酒店「滞在プラン」= 住宿套餐","date_added":"2026-06-26","lang":"ja"}
+  ,{"word":"税関","reading":"ぜいかん","romaji":"zeikan","meaning":"海关","example":"税関で荷物を検査されました。","example_cn":"在海关行李被检查了。","tip":"税（税务）+ 関（关口）= 征税关口。入国必过「税関審査」= 海关检查，红色通道/绿色通道记得区分","date_added":"2026-06-26","lang":"ja"}
+  ,{"word":"無料","reading":"むりょう","romaji":"muryō","meaning":"免费、不收费","example":"ホテルの朝食は無料ですか。","example_cn":"酒店的早餐是免费的吗？","tip":"無（没有）+ 料（费用）= 不收费。反义词「有料」= 收费。Wi-Fi 無料 = 免费 Wi-Fi，看到了就放心用","date_added":"2026-06-26","lang":"ja"}
+  ,{"word":"遅延","reading":"ちえん","romaji":"chien","meaning":"延误、延迟","example":"新幹線が10分遅延しています。","example_cn":"新干线延误了10分钟。","tip":"遅（迟）+ 延（延长）= 比预定时间晚。车站/机场广播高频词：「遅延しております」= 正在晚点中。比「遅刻」更大范围使用","date_added":"2026-06-26","lang":"ja"}
 ];
