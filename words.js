@@ -31,7 +31,7 @@ var EMBEDDED_EN = [{"word": "proactive", "phonetic": "/proʊˈæktɪv/", "meanin
 , {"word":"empathy","phonetic":"/ˈempəθi/","meaning":"共情、同理心","example":"Showing empathy helps build trust with your team.","example_cn":"展现同理心有助于在团队中建立信任。","tip":"em（进入）+ pathy（感受）= 进入别人的感受世界。职场软技能核心词，领导力关键词","date_added":"2026-06-26","lang":"en"}
 , {"word":"optimize","phonetic":"/ˈɒptɪmaɪz/","meaning":"优化、使最优","example":"We need to optimize our workflow to reduce delays.","example_cn":"我们需要优化工作流程以减少延误。","tip":"optim（最佳）+ ize（使…）= 使达到最佳状态。互联网/技术公司高频词：optimize process = 优化流程","date_added":"2026-06-26","lang":"en"}];
 
-// 日语词库（100词，出差主题，20天 × 5）
+// 日语词库（105词，出差主题，21天 × 5）
 // Day 1: 机场出发
 // Day 2: 酒店入住
 // Day 3: 餐厅用餐
@@ -176,4 +176,11 @@ var EMBEDDED_JA = [
   ,{"word":"ルームサービス","reading":"るーむさーびす","romaji":"rūmu sābisu","meaning":"客房服务","example":"ルームサービスで朝食を頼めますか。","example_cn":"可以通过客房服务订早餐吗？","tip":"room service 的外来语。不想去餐厅时的选择，一般比餐厅贵。搭配「ルームサービスを頼む」= 叫客房服务","date_added":"2026-06-26","lang":"ja"}
   ,{"word":"依頼","reading":"いらい","romaji":"irai","meaning":"委托、请求","example":"資料の作成を依頼しました。","example_cn":"我委托了制作资料。","tip":"依（依靠）+ 頼（托付）= 把事情托付给别人。商务邮件高频词：「ご依頼いたします」= 敬请您帮忙","date_added":"2026-06-26","lang":"ja"}
   ,{"word":"指定席","reading":"していせき","romaji":"shiteiseki","meaning":"指定座位、对号座","example":"新幹線の指定席を予約しました。","example_cn":"我预订了新干线的指定座位。","tip":"指定（指定）+ 席（座位）= 对号入座。与「自由席」（自由席）配对，买票时说「指定席で」= 要指定座","date_added":"2026-06-26","lang":"ja"}
+
+  // ===== Day 21: 登机口·手提行李·汇率·发车·邮件附件 =====
+  ,{"word":"搭乗口","reading":"とうじょうぐち","romaji":"tōjōguchi","meaning":"登机口","example":"搭乗口は何番ですか。","example_cn":"登机口是几号？","tip":"搭乗（搭乘飞机）+ 口（出入口）= 登机门。安检后找「搭乗口」= Gate，号码跟登机牌上一致","date_added":"2026-06-27","lang":"ja"}
+  ,{"word":"手荷物","reading":"てにもつ","romaji":"tenimotsu","meaning":"手提行李、随身行李","example":"手荷物は座席の上に置いてください。","example_cn":"请把手提行李放在座位上方。","tip":"手（手边）+ 荷物（行李）= 随身携带的行李。登机时「機内持ち込み手荷物」= 随身携带行李，与托运行李区分","date_added":"2026-06-27","lang":"ja"}
+  ,{"word":"為替レート","reading":"かわせれーと","romaji":"kawase rēto","meaning":"汇率","example":"今日の為替レートはいくらですか。","example_cn":"今天的汇率是多少？","tip":"為替（汇兑）+ レート（rate）= 汇率。到日本第一件事就是确认「為替レート」。銀行/郵便局比空港更划算","date_added":"2026-06-27","lang":"ja"}
+  ,{"word":"発車","reading":"はっしゃ","romaji":"hassha","meaning":"发车、开车","example":"電車はまもなく発車します。","example_cn":"电车马上就要发车了。","tip":"発（出发）+ 車（车辆）= 车辆出发。车站广播高频词：「まもなく発車します」= 即将发车。注意与「出発」（人和飞机的出发）区分使用","date_added":"2026-06-27","lang":"ja"}
+  ,{"word":"添付","reading":"てんぷ","romaji":"tenpu","meaning":"附件、附带","example":"資料をメールに添付しました。","example_cn":"我把资料附在邮件里了。","tip":"添（添加）+ 付（附上）= 附带文件。商务邮件必用：「添付ファイル」= 附件。发完邮件说「添付しました」= 已附上","date_added":"2026-06-27","lang":"ja"}
 ];
