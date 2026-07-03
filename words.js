@@ -39,7 +39,13 @@ var EMBEDDED_EN = [{"word": "proactive", "phonetic": "/proʊˈæktɪv/", "meanin
 , {"word":"gratitude","phonetic":"/ˈɡrætɪtjuːd/","meaning":"感恩、感激","example":"Express gratitude to colleagues who helped you succeed.","example_cn":"向帮助过你的同事表达感激之情。","tip":"grat（感谢）+ itude（状态）= 感恩的状态。职场邮件结尾常用 with gratitude，比 thanks 更正式","date_added":"2026-07-02","lang":"en"}
 , {"word":"disrupt","phonetic":"/dɪsˈrʌpt/","meaning":"打乱、颠覆、扰乱","example":"The new technology disrupted the traditional business model.","example_cn":"新技术颠覆了传统商业模式。","tip":"dis（分开）+ rupt（断裂）= 把正常秩序撕开。商业高频词：disruptive innovation = 颠覆式创新","date_added":"2026-07-02","lang":"en"}
 , {"word":"transparent","phonetic":"/trænsˈpærənt/","meaning":"透明的、公开的","example":"We need to be transparent about our decision-making process.","example_cn":"我们需要对决策过程保持透明。","tip":"trans（穿过）+ parent（显现）= 光能穿过去看得清。管理必用词：transparent communication = 透明沟通","date_added":"2026-07-02","lang":"en"}
-, {"word":"autonomy","phonetic":"/ɔːˈtɒnəmi/","meaning":"自主权、自主性","example":"Giving team members autonomy boosts creativity and morale.","example_cn":"给团队成员自主权能提升创造力和士气。","tip":"auto（自我）+ nomy（规则）= 自我治理的规则。领导力关键词：grant autonomy = 给予自主权","date_added":"2026-07-02","lang":"en"}];
+, {"word":"autonomy","phonetic":"/ɔːˈtɒnəmi/","meaning":"自主权、自主性","example":"Giving team members autonomy boosts creativity and morale.","example_cn":"给团队成员自主权能提升创造力和士气。","tip":"auto（自我）+ nomy（规则）= 自我治理的规则。领导力关键词：grant autonomy = 给予自主权","date_added":"2026-07-02","lang":"en"}
+, {"word":"ambiguity","phonetic":"/ˌæmbɪˈɡjuːəti/","meaning":"歧义、模糊、不明确","example":"There was some ambiguity in the contract terms.","example_cn":"合同条款中存在一些歧义。","tip":"ambi（两边）+ guity（去）= 两边都能走 = 意思不明确。职场中遇到 ambiguity，一定要 ask for clarification。","date_added":"2026-07-03","lang":"en"}
+, {"word":"anticipate","phonetic":"/ænˈtɪsɪpeɪt/","meaning":"预期、预料、提前准备","example":"We need to anticipate potential problems before they arise.","example_cn":"我们需要在问题出现之前提前预料到潜在问题。","tip":"anti（提前）+ cip（拿）+ ate = 提前拿住 = 预见到。比 expect 更强调主动准备，职场常用 anticipate needs。","date_added":"2026-07-03","lang":"en"}
+, {"word":"feasible","phonetic":"/ˈfiːzəbl/","meaning":"可行的、行得通的","example":"Is it feasible to complete the project within two weeks?","example_cn":"在两周内完成这个项目可行吗？","tip":"feas（做）+ ible（能够）= 能够做的。问方案可不可行，比 possible 更正式、更强调资源匹配。","date_added":"2026-07-03","lang":"en"}
+, {"word":"indispensable","phonetic":"/ˌɪndɪˈspensəbl/","meaning":"不可或缺的、必不可少的","example":"A reliable internet connection is indispensable for remote work.","example_cn":"稳定的网络连接对远程工作来说不可或缺。","tip":"in（不）+ dis（分开）+ pensable（可支付的）= 无法分开或缺失的。形容人或工具极其重要。","date_added":"2026-07-03","lang":"en"}
+, {"word":"integrity","phonetic":"/ɪnˈteɡrəti/","meaning":"正直、诚信；完整性","example":"He is a man of integrity and is trusted by everyone.","example_cn":"他是一个正直的人，受到所有人的信任。","tip":"integr（完整）+ ity = 完整无缺。形容人=正直诚信；形容数据=完整一致。职场核心价值观关键词。","date_added":"2026-07-03","lang":"en"}
+];
 
 // 日语词库（105词，出差主题，21天 × 5）
 // Day 1: 机场出发
