@@ -45,6 +45,11 @@ var EMBEDDED_EN = [{"word": "proactive", "phonetic": "/proʊˈæktɪv/", "meanin
 , {"word":"feasible","phonetic":"/ˈfiːzəbl/","meaning":"可行的、行得通的","example":"Is it feasible to complete the project within two weeks?","example_cn":"在两周内完成这个项目可行吗？","tip":"feas（做）+ ible（能够）= 能够做的。问方案可不可行，比 possible 更正式、更强调资源匹配。","date_added":"2026-07-03","lang":"en"}
 , {"word":"indispensable","phonetic":"/ˌɪndɪˈspensəbl/","meaning":"不可或缺的、必不可少的","example":"A reliable internet connection is indispensable for remote work.","example_cn":"稳定的网络连接对远程工作来说不可或缺。","tip":"in（不）+ dis（分开）+ pensable（可支付的）= 无法分开或缺失的。形容人或工具极其重要。","date_added":"2026-07-03","lang":"en"}
 , {"word":"integrity","phonetic":"/ɪnˈteɡrəti/","meaning":"正直、诚信；完整性","example":"He is a man of integrity and is trusted by everyone.","example_cn":"他是一个正直的人，受到所有人的信任。","tip":"integr（完整）+ ity = 完整无缺。形容人=正直诚信；形容数据=完整一致。职场核心价值观关键词。","date_added":"2026-07-03","lang":"en"}
+, {"word":"crucial","phonetic":"/ˈkruːʃl/","meaning":"至关重要的、决定性的","example":"Clear communication is crucial for remote teams.","example_cn":"清晰沟通对远程团队来说至关重要。","tip":"cruc（十字路口）+ ial = 站在十字路口的关键时刻。比 important 强一个等级，汇报/论证时用它更有说服力","date_added":"2026-07-04","lang":"en"}
+, {"word":"diverse","phonetic":"/daɪˈvɜːrs/","meaning":"多元的、多样的、不同的","example":"A diverse team brings more creative solutions.","example_cn":"多元化的团队能带来更有创意的解决方案。","tip":"di（分开）+ verse（转向）= 转向不同方向 → 多样的。DEI（Diversity, Equity, Inclusion）首字母，现代职场文化关键词","date_added":"2026-07-04","lang":"en"}
+, {"word":"exceed","phonetic":"/ɪkˈsiːd/","meaning":"超过、超越、超出","example":"Our sales exceeded the quarterly target by 20%.","example_cn":"我们的销售额超出季度目标20%。","tip":"ex（出）+ ceed（走）= 走出去超出界限。绩效评估黄金词：exceed expectations = 超出预期，比 meet expectations 高一级","date_added":"2026-07-04","lang":"en"}
+, {"word":"frugal","phonetic":"/ˈfruːɡl/","meaning":"节俭的、省钱的","example":"She leads a frugal life but never compromises on quality.","example_cn":"她过着节俭的生活但从不降低品质。","tip":"frug（果实/产出）+ al = 珍惜果实不乱花。和 stingy 不同：frugal 是智慧节约，stingy 是吝啬小气","date_added":"2026-07-04","lang":"en"}
+, {"word":"genuinely","phonetic":"/ˈdʒenjuɪnli/","meaning":"真诚地、真正地","example":"I genuinely appreciate your support on this project.","example_cn":"我真心感谢你在这个项目上的支持。","tip":"genu（天生的/本源的）+ ine + ly = 发自本心地。比 truly/sincerely 更强调发自内心，表达感谢/道歉时用它加分","date_added":"2026-07-04","lang":"en"}
 ];
 
 // 日语词库（105词，出差主题，21天 × 5）
