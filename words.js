@@ -67,7 +67,7 @@ var EMBEDDED_EN = [{"word": "proactive", "phonetic": "/proʊˈæktɪv/", "meanin
 , {"word":"rehearse","phonetic":"/rɪˈhɜːrs/","meaning":"排练、演练、预演","example":"Let's rehearse the presentation before the client meeting.","example_cn":"我们在客户会议前先演练一下汇报内容。","tip":"re（反复）+ hearse（拉车）= 反复拖拉着走 = 反复练习。职场演示必做：rehearse your pitch = 演练你的提案，多 rehearse 几遍上台才不慌","date_added":"2026-07-09","lang":"en"}
 ];
 
-// 日语词库（105词，出差主题，21天 × 5）
+// 日语词库（160词，出差主题，32天 × 5）
 // Day 1: 机场出发
 // Day 2: 酒店入住
 // Day 3: 餐厅用餐
@@ -296,4 +296,11 @@ var EMBEDDED_JA = [
   ,{"word":"貴重品","reading":"きちょうひん","romaji":"kichōhin","meaning":"贵重物品","example":"貴重品は金庫に入れてください。","example_cn":"请把贵重物品放进保险箱。","tip":"貴（贵重）+ 重（重要）+ 品（物品）= 贵重的东西。入住酒店时前台常提醒：「貴重品は金庫に」= 贵重物品请放保险箱","date_added":"2026-07-08","lang":"ja"}
   ,{"word":"キャンセル","reading":"きゃんせる","romaji":"kyanseru","meaning":"取消","example":"フライトのキャンセルをお願いします。","example_cn":"请帮我取消航班。","tip":"cancel 的外来语。商务出差计划变动时常用：「ホテルをキャンセルする」= 取消酒店。注意多数酒店有「キャンセル料」= 取消费","date_added":"2026-07-08","lang":"ja"}
   ,{"word":"手続き","reading":"てつづき","romaji":"tetsuzuki","meaning":"手续、程序","example":"入国の手続きはどこでしますか。","example_cn":"入境手续在哪里办理？","tip":"手（用手）+ 続き（接续）= 按步骤办理的手续。前面学过「搭乗手続き」= 登机手续，单独用「手続き」= 泛指手续","date_added":"2026-07-08","lang":"ja"}
+
+  // ===== Day 33: 出差飞行·酒店续住·自带物品·往返·复印 =====
+  ,{"word":"機内食","reading":"きないしょく","romaji":"kinaishoku","meaning":"机内餐食、飞机餐","example":"機内食は牛肉か魚か選べます。","example_cn":"飞机餐可以选牛肉还是鱼。","tip":"機内（飞机内）+ 食（餐食）= 飞机上供应的餐食。长途出差必备体验，日航/全日空（ANA/JAL）的機内食口碑很好","date_added":"2026-07-09","lang":"ja"}
+  ,{"word":"延泊","reading":"えんぱく","romaji":"enpaku","meaning":"延长住宿、续住","example":"急用ができたので延泊したいです。","example_cn":"因为临时有事，我想续住。","tip":"延（延长）+ 泊（住宿）= 在原预订基础上加住。出差行程延长时跟前台说「延泊できますか」= 能续住吗？比新开一间房更方便","date_added":"2026-07-09","lang":"ja"}
+  ,{"word":"持参","reading":"じさん","romaji":"jisan","meaning":"携带、自带","example":"会議資料は各自持参してください。","example_cn":"会议资料请各自携带。","tip":"持（拿着）+ 参（参与）= 自己带东西来参加。日企会议通知常写「資料持参」= 请自带资料。与「持ってくる」比更正式书面","date_added":"2026-07-09","lang":"ja"}
+  ,{"word":"往復","reading":"おうふく","romaji":"ōfuku","meaning":"往返、来回","example":"東京までの往復切符をください。","example_cn":"请给我到东京的往返票。","tip":"往（去）+ 復（回）= 去和回两个方向。买票时说「往復で」= 要往返票，通常比单买两张「片道」（单程）便宜。新干线/飞机通用","date_added":"2026-07-09","lang":"ja"}
+  ,{"word":"コピー","reading":"こぴー","romaji":"kopī","meaning":"复印、拷贝","example":"この書類を3部コピーしてください。","example_cn":"请把这份文件复印3份。","tip":"copy 的外来语。日本便利店（コンビニ）都有「コピー機」= 复印机。出差临时需要复印资料时去便利店最方便，一份约10日元","date_added":"2026-07-09","lang":"ja"}
 ];
