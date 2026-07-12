@@ -72,7 +72,7 @@ var EMBEDDED_EN = [{"word": "proactive", "phonetic": "/proʊˈæktɪv/", "meanin
 , {"word": "viable", "phonetic": "/ˈvaɪəbl/", "meaning": "可行的、能实施的；能存活的", "example": "We need a viable plan that fits our budget and timeline.", "example_cn": "我们需要一个符合预算和时间的可行方案。", "tip": "vi（生命/道路）+ able = 能活下去的 = 行得通的。商业计划书里高频：viable business model", "date_added": "2026-07-12", "lang": "en"}
 ];
 
-// 日语词库（160词，出差主题，32天 × 5）
+// 日语词库（180词，出差主题，36天 × 5）
 // Day 1: 机场出发
 // Day 2: 酒店入住
 // Day 3: 餐厅用餐
@@ -321,5 +321,12 @@ var EMBEDDED_JA = [
   {"word":"保安検査","reading":"ほあんけんさ","romaji":"hoankensa","meaning":"安检、安全检查","example":"保安検査でノートPCをカバンから出してください。","example_cn":"安检时请把笔记本电脑从包里拿出来。","tip":"保安（安全保障）+ 検査（检查）= 安全检查。机场必经环节：外套/皮带/电脑/手机全部放托盘。「保安検査場」= 安检区，日本安检非常细致","date_added":"2026-07-12","lang":"ja"},
   {"word":"フライト","reading":"ふらいと","romaji":"furaito","meaning":"航班、飞行","example":"フライトは定刻通りに出発します。","example_cn":"航班将准时出发。","tip":"flight 的外来语。搭配：「フライト番号」= 航班号、「フライトが遅れた」= 航班延误了——出差最怕听到的广播","date_added":"2026-07-12","lang":"ja"},
   {"word":"現金","reading":"げんきん","romaji":"genkin","meaning":"现金","example":"現金で払えますか、カードだけですか。","example_cn":"可以用现金支付吗，还是只能刷卡？","tip":"現（现在）+ 金（金钱）= 手头的现钱。日本许多传统小店只收「現金」，出差务必随身携带一些。反义词：キャッシュレス = 无现金支付","date_added":"2026-07-12","lang":"ja"},
-  {"word":"到着ロビー","reading":"とうちゃくろびー","romaji":"tōchaku robī","meaning":"到达大厅","example":"到着ロビーで出迎えの人を探します。","example_cn":"在到达大厅找接我的人。","tip":"到着（到达）+ ロビー（大厅）= 机场到达层出口区。下飞机过海关后进入「到着ロビー」，接机的人都在这里举牌等候。与 Day 30「出発ロビー」配对记忆","date_added":"2026-07-12","lang":"ja"}
+  {"word":"到着ロビー","reading":"とうちゃくろびー","romaji":"tōchaku robī","meaning":"到达大厅","example":"到着ロビーで出迎えの人を探します。","example_cn":"在到达大厅找接我的人。","tip":"到着（到达）+ ロビー（大厅）= 机场到达层出口区。下飞机过海关后进入「到着ロビー」，接机的人都在这里举牌等候。与 Day 30「出発ロビー」配对记忆","date_added":"2026-07-12","lang":"ja"},
+
+  // ===== Day 36: 分支机构·商务面谈·方案研讨·路途出行·就近车站 =====
+  {"word":"拠点","reading":"きょてん","romaji":"kyoten","meaning":"据点、分支机构","example":"大阪拠点で打ち合わせを行います。","example_cn":"在大阪分部开会。","tip":"拠（据点）+ 点（点）= 据点/根据地。日企常用「拠点」指分公司/办事处，「東京拠点」「海外拠点」是出差常去的目的地","date_added":"2026-07-12","lang":"ja"},
+  {"word":"アポイント","reading":"あぽいんと","romaji":"apointo","meaning":"预约、商务面谈约定","example":"明日、取引先とアポイントを取りました。","example_cn":"明天和客户约好了面谈。","tip":"appointment 的简称。比「予約」更强调商务会面，「アポイントを取る」= 约见，出差前必做的准备工作","date_added":"2026-07-12","lang":"ja"},
+  {"word":"検討","reading":"けんとう","romaji":"kentō","meaning":"讨论、研究、考虑","example":"この提案を検討いたします。","example_cn":"我会研究考虑这个提案。","tip":"検（检查）+ 討（讨论）= 仔细探讨。商务万能词：「検討します」= 我会考虑，日企最常用，有时也是委婉拒绝的信号","date_added":"2026-07-12","lang":"ja"},
+  {"word":"移動","reading":"いどう","romaji":"idō","meaning":"移动、出行（从一处到另一处）","example":"午後は東京駅へ移動します。","example_cn":"下午我要移动到东京站。","tip":"移（移动）+ 動（运动）= 从一个地方移动到另一个。出差日程表常用「移動時間」= 路途时间，提醒预留赶路时间","date_added":"2026-07-12","lang":"ja"},
+  {"word":"最寄り駅","reading":"もよりえき","romaji":"moyori eki","meaning":"最近的车站","example":"ホテルの最寄り駅はどこですか。","example_cn":"离酒店最近的车站是哪个？","tip":"最寄り（最近的）+ 駅（车站）= 最近车站。出差找路必问「最寄り駅は？」，酒店/公司所在地也常标注最寄り駅","date_added":"2026-07-12","lang":"ja"}
 ];
