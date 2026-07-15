@@ -85,7 +85,11 @@ var EMBEDDED_EN = [{"word": "proactive", "phonetic": "/proʊˈæktɪv/", "meanin
 , {"word": "essential", "phonetic": "/ɪˈsenʃl/", "meaning": "必不可少的、极其重要的", "example": "Clear communication is essential for teamwork.", "example_cn": "清晰的沟通对团队合作至关重要。", "tip": "essent（存在/本质）+ ial = 关乎本质的。比 important 更强，指缺了就不行", "date_added": "2026-07-14", "lang": "en"}
 , {"word": "schedule", "phonetic": "/ˈskedʒuːl/", "meaning": "日程、时间表；安排", "example": "We need to schedule a follow-up meeting next week.", "example_cn": "我们需要安排下周的跟进会议。", "tip": "源自拉丁语 schedula（小纸条）。工作中最常用：What's your schedule? = 你什么时间方便？", "date_added": "2026-07-14", "lang": "en"}
 , {"word": "objective", "phonetic": "/əbˈdʒektɪv/", "meaning": "目标、目的；客观的", "example": "Our main objective is to improve customer satisfaction.", "example_cn": "我们的主要目标是提升客户满意度。", "tip": "ob（朝向）+ ject（投掷）+ ive = 要投向的目标。商业计划书里比 goal 更正式", "date_added": "2026-07-14", "lang": "en"}
-
+, {"word": "adaptable", "phonetic": "/əˈdæptəbl/", "meaning": "能适应的、灵活的", "example": "Being adaptable is essential when priorities change quickly.", "example_cn": "当优先级快速变化时，适应能力至关重要。", "tip": "adapt（适应）+ able（能够）= 能够适应的。面试高频夸人词：adaptable to change = 能适应变化", "date_added": "2026-07-15", "lang": "en"}
+, {"word": "emphasize", "phonetic": "/ˈemfəsaɪz/", "meaning": "强调、着重", "example": "I want to emphasize the importance of meeting the deadline.", "example_cn": "我想强调按时完成任务的重要性。", "tip": "em（进入）+ phas（显示）+ ize = 让某事凸显出来。写邮件/汇报时说 I want to emphasize... = 我想强调...", "date_added": "2026-07-15", "lang": "en"}
+, {"word": "straightforward", "phonetic": "/ˌstreɪtˈfɔːrwərd/", "meaning": "简单直接的、明确的；坦诚的", "example": "The instructions are straightforward and easy to follow.", "example_cn": "这些说明简单明了，很容易遵循。", "tip": "straight（直的）+ forward（向前）= 直截了当。形容人不绕弯子，形容流程不复杂", "date_added": "2026-07-15", "lang": "en"}
+, {"word": "time-consuming", "phonetic": "/ˈtaɪm kənsuːmɪŋ/", "meaning": "耗时的、费时间的", "example": "Manual data entry is time-consuming and prone to errors.", "example_cn": "手动录入数据既耗时又容易出错。", "tip": "time（时间）+ consuming（消耗）= 消耗时间的。用它解释为什么需要工具/自动化，非常实用", "date_added": "2026-07-15", "lang": "en"}
+, {"word": "workload", "phonetic": "/ˈwɜːrkloʊd/", "meaning": "工作量、工作负担", "example": "My workload has increased since two teammates left.", "example_cn": "自从两位队友离职后，我的工作量增加了。", "tip": "work（工作）+ load（负载）= 工作负载。职场常用：heavy workload = 工作量大，manage workload = 管理工作量", "date_added": "2026-07-15", "lang": "en"}
 ];
 
 // 日语词库（195词，出差主题，39天 × 5）
