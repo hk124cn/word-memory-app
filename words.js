@@ -437,4 +437,11 @@ var EMBEDDED_JA = [
   ,{"word":"spot","phonetic":"/spɒt/","meaning":"发现、看出；地点","example":"Can you spot the difference between the two reports?","example_cn":"你能发现两份报告的差异吗？","tip":"口语高频词：spot a mistake = 发现错误，spot an opportunity = 发现机会。on the spot = 当场","date_added":"2026-07-18","lang":"en"}
   ,{"word":"yield","phonetic":"/jiːld/","meaning":"产出、产生（结果）；让步","example":"The new strategy yielded impressive results this quarter.","example_cn":"新策略本季度产生了令人瞩目的结果。","tip":"投资/商业高频词：high yield = 高收益。也可表示「让步」：yield to pressure = 屈服于压力","date_added":"2026-07-18","lang":"en"}
   ,{"word":"overlook","phonetic":"/ˌoʊvərˈlʊk/","meaning":"忽视、忽略；俯瞰","example":"Don't overlook the small details when reviewing the contract.","example_cn":"审查合同时不要忽视小细节。","tip":"over（在上方）+ look（看）= 从上往下看容易漏掉 → 忽视。hotel room overlooking the sea = 俯瞰大海的房间","date_added":"2026-07-18","lang":"en"}
+
+  // ===== Day 45: 交通费用·商务聚餐·营业时间·问询服务·出差当地 =====
+  ,{"word":"交通費","reading":"こうつうひ","romaji":"kōtsūhi","meaning":"交通费用、出差交通开支","example":"出張の交通費は経費で精算できます。","example_cn":"出差的交通费用可以通过经费报销。","tip":"交通（交通）+ 費（费用）= 与交通相关的花费。出差报销三大支柱：「交通費」+「宿泊費」+「食費」。日本公司要求保留切符（票）和ICカード利用履歴（IC卡使用记录）作为交通费报销凭证","date_added":"2026-07-19","lang":"ja"}
+  ,{"word":"会食","reading":"かいしょく","romaji":"kaishoku","meaning":"商务聚餐、正式宴请","example":"今夜は取引先との会食があります。","example_cn":"今晚有与客户的商务聚餐。","tip":"会（聚会）+ 食（饮食）= 正式场合的商务用餐。与已学「宴会」「懇親会」类似但更侧重正式用餐而非娱乐。出差中「会食」是拉近客户关系的关键环节，座位须遵循上座·下座礼仪","date_added":"2026-07-19","lang":"ja"}
+  ,{"word":"営業時間","reading":"えいぎょうじかん","romaji":"eigyō jikan","meaning":"营业时间、营业时段","example":"駅前のコンビニの営業時間は24時間です。","example_cn":"站前便利店的营业时间是24小时。","tip":"営業（营业）+ 時間（时间）= 店铺或设施开放服务的时间段。出差到陌生城市，先看清「営業時間」避免白跑。餐厅常有ランチタイム（午餐时段）和中间休み的区分，注意别踩空","date_added":"2026-07-19","lang":"ja"}
+  ,{"word":"案内所","reading":"あんないしょ","romaji":"annaisho","meaning":"问询处、服务中心","example":"空港の案内所でフライト情報を確認しました。","example_cn":"我在机场问询处确认了航班信息。","tip":"案内（引导/指引）+ 所（场所）= 提供信息和指引的地方。机场、车站、酒店都有「案内所」= information desk，是出差遇到问题时的第一求助点。「案内所でお聞きください」= 请去问询处询问","date_added":"2026-07-19","lang":"ja"}
+  ,{"word":"現地","reading":"げんち","romaji":"genchi","meaning":"当地、出差目的地现场","example":"現地のスタッフと連絡を取ってください。","example_cn":"请与当地的工作人员取得联系。","tip":"現（现在/实际）+ 地（地方）= 实际所在的场所。出差高频词：「現地スタッフ」= 当地员工、「現地調査」= 实地考察、「現地対応」= 当地处理。出差本质就是从本社前往現地执行任务","date_added":"2026-07-19","lang":"ja"}
 ];
