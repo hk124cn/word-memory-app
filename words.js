@@ -154,6 +154,12 @@ var EMBEDDED_EN = [{"word": "proactive", "phonetic": "/proʊˈæktɪv/", "meanin
 , {"word": "stipulate", "phonetic": "/ˈstɪpjuleɪt/", "meaning": "规定、明确要求、约定", "example": "The contract stipulates that payment is due within 30 days.", "example_cn": "合同规定款项应在30天内支付。", "tip": "stip（点）+ ulate = 一个点一个点地讲清楚。合同/协议中的必用词：The agreement stipulates... = 协议明确规定...", "date_added": "2026-07-26", "lang": "en"}
 , {"word": "fulfill", "phonetic": "/fʊlˈfɪl/", "meaning": "履行、实现、满足", "example": "We need to fulfill all the requirements before the deadline.", "example_cn": "我们需要在截止日期前满足所有要求。", "tip": "ful（满）+ fill（填）= 填到满 = 完成。fulfill a promise/role/duty 是职场标配，区别 accomplish（完成目标）", "date_added": "2026-07-26", "lang": "en"}
 , {"word": "warrant", "phonetic": "/ˈwɒrənt/", "meaning": "使有必要；保证；授权令", "example": "The urgency of the issue warrants immediate action.", "example_cn": "这个问题的紧迫性使立即行动成为必要。", "tip": "war（警觉）+ rant = 需要警觉的事。日常高频：warrant attention = 值得注意，比 deserve 更书面", "date_added": "2026-07-26", "lang": "en"}
+  // ===== Daily English: 2026-07-27 =====
+, {"word": "nurture", "phonetic": "/ˈnɜːrtʃər/", "meaning": "培养、培育；滋养", "example": "Good leaders nurture talent and help their team grow.", "example_cn": "优秀的领导者会培养人才，并帮助团队成长。", "tip": "nur（养）+ ture = 持续滋养。养育孩子/培养下属/培育客户关系都可以用 nurture", "date_added": "2026-07-27", "lang": "en"}
+, {"word": "catalyze", "phonetic": "/ˈkætəlaɪz/", "meaning": "催化、推动", "example": "The new policy is expected to catalyze innovation in the tech sector.", "example_cn": "这项新政策有望推动科技行业的创新。", "tip": "源自化学「催化剂」catalyst。日常用法 = 推动某事加速发生。catalyze change = 催化变革", "date_added": "2026-07-27", "lang": "en"}
+, {"word": "cater", "phonetic": "/ˈkeɪtər/", "meaning": "承办、迎合、满足需要", "example": "Our service caters to busy professionals who value their time.", "example_cn": "我们的服务迎合那些珍视时间的忙碌职场人士。", "tip": "源自 caterer（承办酒席的人）。高频搭配：cater to = 迎合，cater for = 为…提供", "date_added": "2026-07-27", "lang": "en"}
+, {"word": "adept", "phonetic": "/əˈdept/", "meaning": "熟练的、擅长的、内行的", "example": "She is adept at managing cross-functional teams.", "example_cn": "她擅长管理跨职能团队。", "tip": "ad（向）+ ept（合适）= 完全合适的。形容技能熟练比 skilled 更高一层：adept at + doing", "date_added": "2026-07-27", "lang": "en"}
+, {"word": "dispatch", "phonetic": "/dɪˈspætʃ/", "meaning": "派遣、发送；迅速处理", "example": "Please dispatch the package before 5 PM to ensure next-day delivery.", "example_cn": "请在下午 5 点前发出包裹，以确保次日送达。", "tip": "dis（分开）+ patch（片）= 把要办的事分片发出去。物流/快递/邮件都常用，作名词：the dispatch of goods = 货物发出", "date_added": "2026-07-27", "lang": "en"}
 ];
 
 // 日语词库（195词，出差主题，39天 × 5）
