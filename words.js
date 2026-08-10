@@ -1,4 +1,4 @@
-// 英语词库（303词）
+// 英语词库（308词）
 var EMBEDDED_EN = [
   {"word": "proactive", "phonetic": "/proʊˈæktɪv/", "meaning": "主动的、抢先的", "example": "You need to be proactive in solving problems at work.", "example_cn": "你需要在工作中主动解决问题。", "tip": "pro（向前）+ active（积极的）= 主动出击", "date_added": "2026-06-06", "lang": "en"},
   {"word": "concise", "phonetic": "/kənˈsaɪs/", "meaning": "简明的、简洁的", "example": "Please keep your report concise and to the point.", "example_cn": "请让你的报告简洁明了、切中要点。", "tip": "con（完全）+ cise（切）= 把多余的都切掉 = 简洁", "date_added": "2026-06-06", "lang": "en"},
@@ -302,7 +302,12 @@ var EMBEDDED_EN = [
   {"word": "appliance", "phonetic": "/əˈplaɪəns/", "meaning": "家用电器、器具", "example": "This kitchen appliance saves a lot of time.", "example_cn": "这件厨房电器省了不少时间。", "tip": "appli（应用）+ ance = 用起来的东西 = 器具。生活高频：household appliances = 家用电器（冰箱、洗衣机、空调等），kitchen appliance = 厨房电器。买家电说：I need to buy some new appliances = 我需要买些新家电", "date_added": "2026-08-09", "lang": "en"},
   {"word": "laundry", "phonetic": "/ˈlɔːndri/", "meaning": "洗衣；要洗的衣物", "example": "I usually do the laundry on weekends.", "example_cn": "我通常周末洗衣服。", "tip": "laund（洗）+ ry = 洗衣服的地方或衣物。生活高频：do the laundry = 洗衣服，laundry machine/washer = 洗衣机，laundromat = 自助洗衣店。出差住酒店问：Where is the laundry service? = 洗衣服务在哪里", "date_added": "2026-08-09", "lang": "en"},
   {"word": "mortgage", "phonetic": "/ˈmɔːrɡɪdʒ/", "meaning": "按揭贷款、房贷", "example": "They took out a mortgage to buy their first house.", "example_cn": "他们贷款按揭买下了第一套房子。", "tip": "mort（死）+ gage（抵押）= 还清才'解脱'的抵押 = 房贷。生活财务高频：mortgage loan = 按揭贷款，pay off the mortgage = 还清房贷，monthly mortgage payment = 每月房贷还款。银行场景：What's the mortgage rate? = 房贷利率是多少", "date_added": "2026-08-09", "lang": "en"},
-  {"word": "notify", "phonetic": "/ˈnoʊtɪfaɪ/", "meaning": "通知、告知", "example": "Please notify us immediately if there is any change.", "example_cn": "如有任何变动请立即通知我们。", "tip": "note（记录）+ ify = 让人记录到 = 通知。职场高频：notify someone of something = 通知某人某事，notification = 通知（名词）。邮件场景：Please notify me when it's ready = 准备好了请通知我。比 tell 更正式，常用于书面通知", "date_added": "2026-08-09", "lang": "en"}
+  {"word": "notify", "phonetic": "/ˈnoʊtɪfaɪ/", "meaning": "通知、告知", "example": "Please notify us immediately if there is any change.", "example_cn": "如有任何变动请立即通知我们。", "tip": "note（记录）+ ify = 让人记录到 = 通知。职场高频：notify someone of something = 通知某人某事，notification = 通知（名词）。邮件场景：Please notify me when it's ready = 准备好了请通知我。比 tell 更正式，常用于书面通知", "date_added": "2026-08-09", "lang": "en"},
+  {"word":"utility","phonetic":"/juːˈtɪləti/","meaning":"公用事业费（水电煤气）；实用性","example":"Don't forget to pay the utility bills before the end of the month.","example_cn":"别忘了在月底前缴纳水电煤气费。","tip":"utility（实用）+ y = 生活中最「实用」的账单。租房时 landlord 会问你是否包含 utility bills","date_added":"2026-08-10","lang":"en"},
+  {"word":"landlord","phonetic":"/ˈlændlɔːrd/","meaning":"房东","example":"My landlord came to fix the leaking tap yesterday.","example_cn":"房东昨天来修了漏水的水龙头。","tip":"land（土地）+ lord（领主）= 土地的主人 = 房东。租客是 tenant，租房常用词","date_added":"2026-08-10","lang":"en"},
+  {"word":"discount","phonetic":"/ˈdɪskaʊnt/","meaning":"折扣、打折","example":"Employees get a 20% discount at the company store.","example_cn":"员工在公司商店购物可享受八折优惠。","tip":"dis（去掉）+ count（计算）= 从价格里扣掉一部分 = 打折。购物必问 Do you offer any discount?","date_added":"2026-08-10","lang":"en"},
+  {"word":"installment","phonetic":"/ɪnˈstɔːlmənt/","meaning":"分期付款；一期款项","example":"I bought the laptop on a monthly installment plan.","example_cn":"我以按月分期付款的方式买了这台笔记本电脑。","tip":"install（安装）+ ment = 像安装一样分阶段完成 = 分期。buy on installments = 分期购买","date_added":"2026-08-10","lang":"en"},
+  {"word":"attach","phonetic":"/əˈtætʃ/","meaning":"附上、附加；使依附","example":"Please attach the report to your reply email.","example_cn":"请把报告附在你的回复邮件里。","tip":"at（向）+ tach（拴）= 把东西拴在一起 = 附上。邮件高频：Please find attached = 请看附件","date_added":"2026-08-10","lang":"en"}
 ];
 
 // 日语词库（195词，出差主题，39天 × 5）
