@@ -1,4 +1,4 @@
-// 英语词库（318词）
+// 英语词库（323词）
 var EMBEDDED_EN = [
   {"word": "proactive", "phonetic": "/proʊˈæktɪv/", "meaning": "主动的、抢先的", "example": "You need to be proactive in solving problems at work.", "example_cn": "你需要在工作中主动解决问题。", "tip": "pro（向前）+ active（积极的）= 主动出击", "date_added": "2026-06-06", "lang": "en"},
   {"word": "concise", "phonetic": "/kənˈsaɪs/", "meaning": "简明的、简洁的", "example": "Please keep your report concise and to the point.", "example_cn": "请让你的报告简洁明了、切中要点。", "tip": "con（完全）+ cise（切）= 把多余的都切掉 = 简洁", "date_added": "2026-06-06", "lang": "en"},
@@ -317,7 +317,12 @@ var EMBEDDED_EN = [
   {"word":"vendor","phonetic":"/ˈvendər/","meaning":"供应商、小贩","example":"We need to find a reliable vendor for office supplies.","example_cn":"我们需要找一家可靠的办公用品供应商。","tip":"来自法语 vendre（卖）。比 supplier 更口语：公司里 vendor = 供应商，街边 vendor = 小贩。和 procurement（采购）配对记：采购方找 vendor 下单","date_added":"2026-08-12","lang":"en"},
   {"word":"quota","phonetic":"/ˈkwəʊtə/","meaning":"配额、定额、指标","example":"The sales team must meet its monthly quota.","example_cn":"销售团队必须完成月度销售指标。","tip":"源自拉丁语 quot（多少）= 规定是多少。职场高频：sales quota = 销售指标、meet the quota = 完成指标。手机流量也能用：data quota = 流量限额","date_added":"2026-08-12","lang":"en"},
   {"word":"mentor","phonetic":"/ˈmentɔːr/","meaning":"导师、指导者","example":"My mentor gave me valuable advice on my career development.","example_cn":"我的导师在职业发展上给了我宝贵的建议。","tip":"源自《奥德赛》中的智者 Mentor。职场三连：mentor = 导师、mentee = 被指导者、mentorship = 师徒制。大公司入职常配 mentor，主动请教才能快速成长","date_added":"2026-08-12","lang":"en"},
-  {"word":"recipe","phonetic":"/ˈresəpi/","meaning":"菜谱、秘诀","example":"This cake is easy to make if you follow the recipe.","example_cn":"只要照着菜谱做，这个蛋糕很容易。","tip":"来自拉丁语 recipere（取用），药方和菜谱同源。生活高频：follow a recipe = 照着菜谱做。引申义更常用：a recipe for success = 成功的秘诀、a recipe for disaster = 灾祸的导火索","date_added":"2026-08-12","lang":"en"}
+  {"word":"recipe","phonetic":"/ˈresəpi/","meaning":"菜谱、秘诀","example":"This cake is easy to make if you follow the recipe.","example_cn":"只要照着菜谱做，这个蛋糕很容易。","tip":"来自拉丁语 recipere（取用），药方和菜谱同源。生活高频：follow a recipe = 照着菜谱做。引申义更常用：a recipe for success = 成功的秘诀、a recipe for disaster = 灾祸的导火索","date_added":"2026-08-12","lang":"en"},
+  {"word":"renew","phonetic":"/rɪˈnuː/","meaning":"续期、续费；更新、重新开始","example":"Remember to renew your subscription before it expires.","example_cn":"记得在订阅到期前续费。","tip":"re（重新）+ new（新的）= 让旧的重新变新。生活高频：renew a passport = 换发护照、renew a contract = 续约。手机话费、会员、签证都靠它","date_added":"2026-08-13","lang":"en"},
+  {"word":"cancel","phonetic":"/ˈkænsl/","meaning":"取消、撤销；注销","example":"I have to cancel the meeting because two members are unavailable.","example_cn":"因为两位成员没空，我不得不取消会议。","tip":"高频搭配三件套：cancel a meeting 取消会议、cancel an order 取消订单、cancel a subscription 取消订阅。改期别用 cancel，用 reschedule","date_added":"2026-08-13","lang":"en"},
+  {"word":"performance","phonetic":"/pərˈfɔːrməns/","meaning":"表现、绩效；性能；演出","example":"Her performance this quarter exceeded all expectations.","example_cn":"她本季度的绩效超出了所有人的预期。","tip":"perform（执行、表演）+ ance。职场超高频：performance review = 绩效面谈、performance bonus = 绩效奖金。日常也能说 a great performance = 出色表现","date_added":"2026-08-13","lang":"en"},
+  {"word":"promotion","phonetic":"/prəˈmoʊʃn/","meaning":"晋升；促销、推广","example":"He finally got a promotion after three years of hard work.","example_cn":"经过三年努力，他终于获得了晋升。","tip":"pro（向前）+ motion（移动）= 向前进。双义都高频：get a promotion = 升职、sales promotion = 促销活动。动词是 promote","date_added":"2026-08-13","lang":"en"},
+  {"word":"commission","phonetic":"/kəˈmɪʃn/","meaning":"佣金、提成；委托","example":"Sales staff earn a 10% commission on every deal they close.","example_cn":"销售人员每成交一笔可获得10%的提成。","tip":"com（共同）+ mission（使命）= 交办的事。职场高频：commission = 销售提成（底薪是 base salary），commission a project = 委托项目","date_added":"2026-08-13","lang":"en"}
 ];
 
 // 日语词库（195词，出差主题，39天 × 5）
