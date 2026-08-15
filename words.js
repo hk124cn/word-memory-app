@@ -1,4 +1,4 @@
-// 英语词库（328词）
+// 英语词库（333词）
 var EMBEDDED_EN = [
   {"word": "proactive", "phonetic": "/proʊˈæktɪv/", "meaning": "主动的、抢先的", "example": "You need to be proactive in solving problems at work.", "example_cn": "你需要在工作中主动解决问题。", "tip": "pro（向前）+ active（积极的）= 主动出击", "date_added": "2026-06-06", "lang": "en"},
   {"word": "concise", "phonetic": "/kənˈsaɪs/", "meaning": "简明的、简洁的", "example": "Please keep your report concise and to the point.", "example_cn": "请让你的报告简洁明了、切中要点。", "tip": "con（完全）+ cise（切）= 把多余的都切掉 = 简洁", "date_added": "2026-06-06", "lang": "en"},
@@ -327,7 +327,12 @@ var EMBEDDED_EN = [
   {"word":"wage","phonetic":"/weɪdʒ/","meaning":"工资、工钱","example":"The company pays its employees a competitive hourly wage.","example_cn":"公司为员工支付有竞争力的时薪。","tip":"wage 常指按小时/天计的工钱，salary 是月薪年薪。职场高频：minimum wage = 最低工资、wage increase = 加薪","date_added":"2026-08-15","lang":"en"},
   {"word":"delay","phonetic":"/dɪˈleɪ/","meaning":"延误、推迟、耽搁","example":"The flight was delayed for two hours due to heavy rain.","example_cn":"由于大雨，航班延误了两个小时。","tip":"出行高频：flight delay = 航班延误。职场也常用：delay the meeting = 推迟会议，behind schedule 是它的近义表达","date_added":"2026-08-15","lang":"en"},
   {"word":"delivery","phonetic":"/dɪˈlɪvəri/","meaning":"配送、投递；交付","example":"The package delivery will arrive at your door tomorrow morning.","example_cn":"包裹明天早上会送到你家门口。","tip":"生活高频：food delivery = 外卖、delivery time = 送达时间。职场也常说 deliver a project = 交付项目","date_added":"2026-08-15","lang":"en"},
-  {"word":"request","phonetic":"/rɪˈkwest/","meaning":"请求、要求；要求（做某事）","example":"She submitted a formal request for a leave of absence.","example_cn":"她提交了正式的请假申请。","tip":"职场万能词：request for information = 信息咨询、on request = 应要求。比 ask 更正式，邮件里超常用","date_added":"2026-08-15","lang":"en"}
+  {"word":"request","phonetic":"/rɪˈkwest/","meaning":"请求、要求；要求（做某事）","example":"She submitted a formal request for a leave of absence.","example_cn":"她提交了正式的请假申请。","tip":"职场万能词：request for information = 信息咨询、on request = 应要求。比 ask 更正式，邮件里超常用","date_added":"2026-08-15","lang":"en"},
+  {"word":"appraisal","phonetic":"/əˈpreɪzl/","meaning":"评估、评价；绩效考核","example":"My annual performance appraisal is scheduled for next week.","example_cn":"我的年度绩效评估安排在下周。","tip":"职场高频：performance appraisal = 绩效考核、appraise 是其动词。同义还有 review / evaluation","date_added":"2026-08-15","lang":"en"},
+  {"word":"screening","phonetic":"/ˈskriːnɪŋ/","meaning":"筛选、筛查；放映","example":"The company will conduct background screening for all new hires.","example_cn":"公司会对所有新员工进行背景筛查。","tip":"screen（屏幕→筛选）+ ing。职场/生活双高频：job screening = 简历筛选、health screening = 健康体检","date_added":"2026-08-15","lang":"en"},
+  {"word":"foreseeable","phonetic":"/fɔːˈsiːəbl/","meaning":"可预见的、可预料的","example":"We do not expect any changes in the foreseeable future.","example_cn":"在可预见的未来，我们不预期会有任何变化。","tip":"fore（预先）+ see（看见）+ able（可…的）= 可预先看到的。职场套话 in the foreseeable future = 在可预见的将来","date_added":"2026-08-15","lang":"en"},
+  {"word":"clause","phonetic":"/klɔːz/","meaning":"条款、从句","example":"Please read the termination clause carefully before signing.","example_cn":"签署前请仔细阅读终止条款。","tip":"合同高频：contract clause = 合同条款、confidentiality clause = 保密条款。语法里还指从句，一词两用","date_added":"2026-08-15","lang":"en"},
+  {"word":"payroll","phonetic":"/ˈpeɪroʊl/","meaning":"工资单、工资名册","example":"HR will process the payroll at the end of each month.","example_cn":"人力资源部会在每月月底处理工资发放。","tip":"pay（工资）+ roll（名单）= 发工资的名单。职场高频：payroll department = 薪资部门、on the payroll = 在职","date_added":"2026-08-15","lang":"en"}
 ];
 
 // 日语词库（195词，出差主题，39天 × 5）
