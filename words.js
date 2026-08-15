@@ -1,4 +1,4 @@
-// 英语词库（323词）
+// 英语词库（328词）
 var EMBEDDED_EN = [
   {"word": "proactive", "phonetic": "/proʊˈæktɪv/", "meaning": "主动的、抢先的", "example": "You need to be proactive in solving problems at work.", "example_cn": "你需要在工作中主动解决问题。", "tip": "pro（向前）+ active（积极的）= 主动出击", "date_added": "2026-06-06", "lang": "en"},
   {"word": "concise", "phonetic": "/kənˈsaɪs/", "meaning": "简明的、简洁的", "example": "Please keep your report concise and to the point.", "example_cn": "请让你的报告简洁明了、切中要点。", "tip": "con（完全）+ cise（切）= 把多余的都切掉 = 简洁", "date_added": "2026-06-06", "lang": "en"},
@@ -322,7 +322,12 @@ var EMBEDDED_EN = [
   {"word":"cancel","phonetic":"/ˈkænsl/","meaning":"取消、撤销；注销","example":"I have to cancel the meeting because two members are unavailable.","example_cn":"因为两位成员没空，我不得不取消会议。","tip":"高频搭配三件套：cancel a meeting 取消会议、cancel an order 取消订单、cancel a subscription 取消订阅。改期别用 cancel，用 reschedule","date_added":"2026-08-13","lang":"en"},
   {"word":"performance","phonetic":"/pərˈfɔːrməns/","meaning":"表现、绩效；性能；演出","example":"Her performance this quarter exceeded all expectations.","example_cn":"她本季度的绩效超出了所有人的预期。","tip":"perform（执行、表演）+ ance。职场超高频：performance review = 绩效面谈、performance bonus = 绩效奖金。日常也能说 a great performance = 出色表现","date_added":"2026-08-13","lang":"en"},
   {"word":"promotion","phonetic":"/prəˈmoʊʃn/","meaning":"晋升；促销、推广","example":"He finally got a promotion after three years of hard work.","example_cn":"经过三年努力，他终于获得了晋升。","tip":"pro（向前）+ motion（移动）= 向前进。双义都高频：get a promotion = 升职、sales promotion = 促销活动。动词是 promote","date_added":"2026-08-13","lang":"en"},
-  {"word":"commission","phonetic":"/kəˈmɪʃn/","meaning":"佣金、提成；委托","example":"Sales staff earn a 10% commission on every deal they close.","example_cn":"销售人员每成交一笔可获得10%的提成。","tip":"com（共同）+ mission（使命）= 交办的事。职场高频：commission = 销售提成（底薪是 base salary），commission a project = 委托项目","date_added":"2026-08-13","lang":"en"}
+  {"word":"commission","phonetic":"/kəˈmɪʃn/","meaning":"佣金、提成；委托","example":"Sales staff earn a 10% commission on every deal they close.","example_cn":"销售人员每成交一笔可获得10%的提成。","tip":"com（共同）+ mission（使命）= 交办的事。职场高频：commission = 销售提成（底薪是 base salary），commission a project = 委托项目","date_added":"2026-08-13","lang":"en"},
+  {"word":"compliance","phonetic":"/kəmˈplaɪəns/","meaning":"合规、遵守、服从","example":"The new policy ensures full compliance with data protection laws.","example_cn":"新政策确保完全符合数据保护法规。","tip":"comply（遵守）+ ance = 遵规守纪。职场高频：compliance check = 合规检查、in compliance with = 符合……规定","date_added":"2026-08-15","lang":"en"},
+  {"word":"wage","phonetic":"/weɪdʒ/","meaning":"工资、工钱","example":"The company pays its employees a competitive hourly wage.","example_cn":"公司为员工支付有竞争力的时薪。","tip":"wage 常指按小时/天计的工钱，salary 是月薪年薪。职场高频：minimum wage = 最低工资、wage increase = 加薪","date_added":"2026-08-15","lang":"en"},
+  {"word":"delay","phonetic":"/dɪˈleɪ/","meaning":"延误、推迟、耽搁","example":"The flight was delayed for two hours due to heavy rain.","example_cn":"由于大雨，航班延误了两个小时。","tip":"出行高频：flight delay = 航班延误。职场也常用：delay the meeting = 推迟会议，behind schedule 是它的近义表达","date_added":"2026-08-15","lang":"en"},
+  {"word":"delivery","phonetic":"/dɪˈlɪvəri/","meaning":"配送、投递；交付","example":"The package delivery will arrive at your door tomorrow morning.","example_cn":"包裹明天早上会送到你家门口。","tip":"生活高频：food delivery = 外卖、delivery time = 送达时间。职场也常说 deliver a project = 交付项目","date_added":"2026-08-15","lang":"en"},
+  {"word":"request","phonetic":"/rɪˈkwest/","meaning":"请求、要求；要求（做某事）","example":"She submitted a formal request for a leave of absence.","example_cn":"她提交了正式的请假申请。","tip":"职场万能词：request for information = 信息咨询、on request = 应要求。比 ask 更正式，邮件里超常用","date_added":"2026-08-15","lang":"en"}
 ];
 
 // 日语词库（195词，出差主题，39天 × 5）
