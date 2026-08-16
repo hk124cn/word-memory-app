@@ -1,4 +1,4 @@
-// 英语词库（333词）
+// 英语词库（338词）
 var EMBEDDED_EN = [
   {"word": "proactive", "phonetic": "/proʊˈæktɪv/", "meaning": "主动的、抢先的", "example": "You need to be proactive in solving problems at work.", "example_cn": "你需要在工作中主动解决问题。", "tip": "pro（向前）+ active（积极的）= 主动出击", "date_added": "2026-06-06", "lang": "en"},
   {"word": "concise", "phonetic": "/kənˈsaɪs/", "meaning": "简明的、简洁的", "example": "Please keep your report concise and to the point.", "example_cn": "请让你的报告简洁明了、切中要点。", "tip": "con（完全）+ cise（切）= 把多余的都切掉 = 简洁", "date_added": "2026-06-06", "lang": "en"},
@@ -332,7 +332,12 @@ var EMBEDDED_EN = [
   {"word":"screening","phonetic":"/ˈskriːnɪŋ/","meaning":"筛选、筛查；放映","example":"The company will conduct background screening for all new hires.","example_cn":"公司会对所有新员工进行背景筛查。","tip":"screen（屏幕→筛选）+ ing。职场/生活双高频：job screening = 简历筛选、health screening = 健康体检","date_added":"2026-08-15","lang":"en"},
   {"word":"foreseeable","phonetic":"/fɔːˈsiːəbl/","meaning":"可预见的、可预料的","example":"We do not expect any changes in the foreseeable future.","example_cn":"在可预见的未来，我们不预期会有任何变化。","tip":"fore（预先）+ see（看见）+ able（可…的）= 可预先看到的。职场套话 in the foreseeable future = 在可预见的将来","date_added":"2026-08-15","lang":"en"},
   {"word":"clause","phonetic":"/klɔːz/","meaning":"条款、从句","example":"Please read the termination clause carefully before signing.","example_cn":"签署前请仔细阅读终止条款。","tip":"合同高频：contract clause = 合同条款、confidentiality clause = 保密条款。语法里还指从句，一词两用","date_added":"2026-08-15","lang":"en"},
-  {"word":"payroll","phonetic":"/ˈpeɪroʊl/","meaning":"工资单、工资名册","example":"HR will process the payroll at the end of each month.","example_cn":"人力资源部会在每月月底处理工资发放。","tip":"pay（工资）+ roll（名单）= 发工资的名单。职场高频：payroll department = 薪资部门、on the payroll = 在职","date_added":"2026-08-15","lang":"en"}
+  {"word":"payroll","phonetic":"/ˈpeɪroʊl/","meaning":"工资单、工资名册","example":"HR will process the payroll at the end of each month.","example_cn":"人力资源部会在每月月底处理工资发放。","tip":"pay（工资）+ roll（名单）= 发工资的名单。职场高频：payroll department = 薪资部门、on the payroll = 在职","date_added":"2026-08-15","lang":"en"},
+  {"word":"onboarding","phonetic":"/ˈɒnbɔːdɪŋ/","meaning":"入职流程、新员工培训","example":"New employees go through a two-week onboarding program.","example_cn":"新员工要经历为期两周的入职培训。","tip":"on（上）+ boarding（登船）= 上船融入团队 = 入职。与 offboarding（离职交接）相对，HR 圈高频词","date_added":"2026-08-16","lang":"en"},
+  {"word":"layoff","phonetic":"/ˈleɪɒf/","meaning":"裁员、解雇","example":"The company announced a round of layoffs due to budget cuts.","example_cn":"公司因削减预算宣布了一轮裁员。","tip":"lay（放下）+ off（离开）= 让人离开岗位 = 裁员。名词常作 layoffs（复数），动词是 lay off","date_added":"2026-08-16","lang":"en"},
+  {"word":"hybrid","phonetic":"/ˈhaɪbrɪd/","meaning":"混合的；混合办公模式","example":"Our team switched to a hybrid working model after the pandemic.","example_cn":"疫情后我们团队转为混合办公模式。","tip":"hy（半）+ brid（出生）= 两种血统混合。现代职场热词：hybrid work = 混合办公（部分到公司、部分远程），hybrid car = 混合动力车","date_added":"2026-08-16","lang":"en"},
+  {"word":"sprint","phonetic":"/sprɪnt/","meaning":"冲刺、短跑；迭代周期","example":"The dev team plans its work in two-week sprints.","example_cn":"开发团队按两周一个迭代周期来规划工作。","tip":"原意短跑冲刺，敏捷开发里指固定时长的迭代周期（常 1-2 周）。科技公司高频：sprint planning = 迭代规划，daily standup 就是为了 sprint 服务","date_added":"2026-08-16","lang":"en"},
+  {"word":"coupon","phonetic":"/ˈkuːpɒn/","meaning":"优惠券、代金券","example":"I got a 20% off coupon from the app.","example_cn":"我从应用里领了一张八折优惠券。","tip":"法语 couper（剪）= 从报纸上剪下来的票券。生活高频：discount coupon = 折扣券，redeem a coupon = 兑换优惠券，双写 p 别漏","date_added":"2026-08-16","lang":"en"}
 ];
 
 // 日语词库（195词，出差主题，39天 × 5）
