@@ -1,4 +1,4 @@
-// 英语词库（338词）
+// 英语词库（348词）
 var EMBEDDED_EN = [
   {"word": "proactive", "phonetic": "/proʊˈæktɪv/", "meaning": "主动的、抢先的", "example": "You need to be proactive in solving problems at work.", "example_cn": "你需要在工作中主动解决问题。", "tip": "pro（向前）+ active（积极的）= 主动出击", "date_added": "2026-06-06", "lang": "en"},
   {"word": "concise", "phonetic": "/kənˈsaɪs/", "meaning": "简明的、简洁的", "example": "Please keep your report concise and to the point.", "example_cn": "请让你的报告简洁明了、切中要点。", "tip": "con（完全）+ cise（切）= 把多余的都切掉 = 简洁", "date_added": "2026-06-06", "lang": "en"},
@@ -342,7 +342,12 @@ var EMBEDDED_EN = [
   {"word":"relocate","phonetic":"/ˌriːləʊˈkeɪt/","meaning":"搬迁、迁移；调动（工作地点）","example":"The company decided to relocate its office to the city center.","example_cn":"公司决定把办公室搬到市中心。","tip":"re（重新）+ locate（定位）= 重新定位到别处。relocation package = 搬家补贴套餐，外企面试常客","date_added":"2026-08-16","lang":"en"},
   {"word":"terminate","phonetic":"/ˈtɜːmɪneɪt/","meaning":"终止、结束；解约","example":"Either party may terminate the contract with a 30-day notice.","example_cn":"任何一方提前30天通知即可终止合同。","tip":"terminal（终点站）的动词 → 走到终点 = 终止。合同高频：terminate the agreement = 终止协议。注意终止的是合同，辞退人用 fire/dismiss","date_added":"2026-08-16","lang":"en"},
   {"word":"inflation","phonetic":"/ɪnˈfleɪʃn/","meaning":"通货膨胀、物价上涨","example":"Inflation has pushed up the price of everyday goods.","example_cn":"通货膨胀推高了日常商品的价格。","tip":"in（进入）+ flate（吹气）+ ion = 钱被吹大不值钱了。新闻高频：inflation rate = 通胀率。反义词 deflation = 通货紧缩","date_added":"2026-08-16","lang":"en"},
-  {"word":"negotiation","phonetic":"/nɪˌɡəʊʃiˈeɪʃn/","meaning":"谈判、协商","example":"The salary negotiation lasted for almost two hours.","example_cn":"薪资谈判持续了将近两个小时。","tip":"negotiate（动词：谈判）的名词。职场/生活双高频：salary negotiation = 谈薪、price negotiation = 谈价格，名词拼写注意别漏第二个 i","date_added":"2026-08-16","lang":"en"}
+  {"word":"negotiation","phonetic":"/nɪˌɡəʊʃiˈeɪʃn/","meaning":"谈判、协商","example":"The salary negotiation lasted for almost two hours.","example_cn":"薪资谈判持续了将近两个小时。","tip":"negotiate（动词：谈判）的名词。职场/生活双高频：salary negotiation = 谈薪、price negotiation = 谈价格，名词拼写注意别漏第二个 i","date_added":"2026-08-16","lang":"en"},
+  {"word":"convince","phonetic":"/kənˈvɪns/","meaning":"说服、使信服","example":"She convinced the client to sign the contract today.","example_cn":"她说服客户今天签下了合同。","tip":"con（完全）+ vince（征服）= 完全征服对方想法 = 说服。与已学 persuade（劝导）近义：convince 侧重用事实让对方信服，persuade 侧重用言语劝动","date_added":"2026-08-17","lang":"en"},
+  {"word":"guarantee","phonetic":"/ˌɡærənˈtiː/","meaning":"保证、担保；保修","example":"The store guarantees a full refund within 30 days.","example_cn":"这家店保证30天内全额退款。","tip":"guar + ant + ee = 双写 a 后是 ant。生活/购物高频：money-back guarantee = 退款保证、under guarantee = 在保修期内","date_added":"2026-08-17","lang":"en"},
+  {"word":"purchase","phonetic":"/ˈpɜːrtʃəs/","meaning":"购买、采购；所购之物","example":"I made a large purchase of office supplies this month.","example_cn":"这个月我采购了大量办公用品。","tip":"与 buy 同义但更正式书面。职场采购高频：purchase order = 采购单（PO）、make a purchase = 完成购买。网购结算页常见","date_added":"2026-08-17","lang":"en"},
+  {"word":"grateful","phonetic":"/ˈɡreɪtfl/","meaning":"感激的、感谢的","example":"I'm grateful for your support during the busy season.","example_cn":"我很感激你在旺季期间的支持。","tip":"grate（感激）+ ful。与已学 appreciate（动词：感激）配对：be grateful for + 名词 = 对…心怀感激。职场邮件结尾高频：I'd be grateful if you could...","date_added":"2026-08-17","lang":"en"},
+  {"word":"approve","phonetic":"/əˈpruːv/","meaning":"批准、同意、认可","example":"The manager approved my leave request this afternoon.","example_cn":"经理今天下午批准了我的请假申请。","tip":"ap + prove（证明）= 证明可行后点头。职场流程高频：approve a request = 批准申请、get approved = 获批。名词 approval = 批准","date_added":"2026-08-17","lang":"en"}
 ];
 
 // 日语词库（195词，出差主题，39天 × 5）
