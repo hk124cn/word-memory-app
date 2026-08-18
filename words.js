@@ -1,4 +1,4 @@
-// 英语词库（348词）
+// 英语词库（353词）
 var EMBEDDED_EN = [
   {"word": "proactive", "phonetic": "/proʊˈæktɪv/", "meaning": "主动的、抢先的", "example": "You need to be proactive in solving problems at work.", "example_cn": "你需要在工作中主动解决问题。", "tip": "pro（向前）+ active（积极的）= 主动出击", "date_added": "2026-06-06", "lang": "en"},
   {"word": "concise", "phonetic": "/kənˈsaɪs/", "meaning": "简明的、简洁的", "example": "Please keep your report concise and to the point.", "example_cn": "请让你的报告简洁明了、切中要点。", "tip": "con（完全）+ cise（切）= 把多余的都切掉 = 简洁", "date_added": "2026-06-06", "lang": "en"},
@@ -347,7 +347,12 @@ var EMBEDDED_EN = [
   {"word":"guarantee","phonetic":"/ˌɡærənˈtiː/","meaning":"保证、担保；保修","example":"The store guarantees a full refund within 30 days.","example_cn":"这家店保证30天内全额退款。","tip":"guar + ant + ee = 双写 a 后是 ant。生活/购物高频：money-back guarantee = 退款保证、under guarantee = 在保修期内","date_added":"2026-08-17","lang":"en"},
   {"word":"purchase","phonetic":"/ˈpɜːrtʃəs/","meaning":"购买、采购；所购之物","example":"I made a large purchase of office supplies this month.","example_cn":"这个月我采购了大量办公用品。","tip":"与 buy 同义但更正式书面。职场采购高频：purchase order = 采购单（PO）、make a purchase = 完成购买。网购结算页常见","date_added":"2026-08-17","lang":"en"},
   {"word":"grateful","phonetic":"/ˈɡreɪtfl/","meaning":"感激的、感谢的","example":"I'm grateful for your support during the busy season.","example_cn":"我很感激你在旺季期间的支持。","tip":"grate（感激）+ ful。与已学 appreciate（动词：感激）配对：be grateful for + 名词 = 对…心怀感激。职场邮件结尾高频：I'd be grateful if you could...","date_added":"2026-08-17","lang":"en"},
-  {"word":"approve","phonetic":"/əˈpruːv/","meaning":"批准、同意、认可","example":"The manager approved my leave request this afternoon.","example_cn":"经理今天下午批准了我的请假申请。","tip":"ap + prove（证明）= 证明可行后点头。职场流程高频：approve a request = 批准申请、get approved = 获批。名词 approval = 批准","date_added":"2026-08-17","lang":"en"}
+  {"word":"approve","phonetic":"/əˈpruːv/","meaning":"批准、同意、认可","example":"The manager approved my leave request this afternoon.","example_cn":"经理今天下午批准了我的请假申请。","tip":"ap + prove（证明）= 证明可行后点头。职场流程高频：approve a request = 批准申请、get approved = 获批。名词 approval = 批准","date_added":"2026-08-17","lang":"en"},
+  {"word":"upgrade","phonetic":"/ˈʌpɡreɪd/","meaning":"升级、提升；升级品","example":"We need to upgrade our software to fix the security issues.","example_cn":"我们需要升级软件来修复安全问题。","tip":"up（向上）+ grade（等级）= 等级往上走。手机系统、电脑软件、酒店房型都用它；反义词 downgrade = 降级","date_added":"2026-08-18","lang":"en"},
+  {"word":"troubleshoot","phonetic":"/ˈtrʌblʃuːt/","meaning":"排查故障、解决问题","example":"The IT team came to troubleshoot the network problem.","example_cn":"IT 团队过来排查网络故障。","tip":"trouble（麻烦）+ shoot（射击）= 把麻烦打掉。职场科技高频词：troubleshoot an issue = 排查问题，名词 troubleshooting","date_added":"2026-08-18","lang":"en"},
+  {"word":"consent","phonetic":"/kənˈsent/","meaning":"同意、准许、许可","example":"You need the manager's consent before changing the contract.","example_cn":"修改合同前你需要得到经理的同意。","tip":"con（共同）+ sent（感觉）= 想法一致 = 同意。职场合规高频：give consent = 给予同意、withhold consent = 拒绝同意","date_added":"2026-08-18","lang":"en"},
+  {"word":"swipe","phonetic":"/swaɪp/","meaning":"刷（卡）；滑动、轻扫","example":"You can swipe your card to pay at the counter.","example_cn":"你可以在柜台刷卡支付。","tip":"拟声词，模拟快速划过的声音。生活高频：swipe a card = 刷卡、swipe left/right = 手机左右滑动","date_added":"2026-08-18","lang":"en"},
+  {"word":"license","phonetic":"/ˈlaɪsns/","meaning":"许可证、执照；准许","example":"Driving without a license is illegal in most countries.","example_cn":"在大多数国家无证驾驶是违法的。","tip":"lic（允许）+ ense（名词后缀）= 被允许的凭证。驾照 = driver's license、软件许可 = software license。美式拼写 license，英式名词 licence","date_added":"2026-08-18","lang":"en"}
 ];
 
 // 日语词库（195词，出差主题，39天 × 5）
