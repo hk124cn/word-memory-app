@@ -1,4 +1,4 @@
-// 英语词库（358词）
+// 英语词库（363词）
 var EMBEDDED_EN = [
   {"word": "proactive", "phonetic": "/proʊˈæktɪv/", "meaning": "主动的、抢先的", "example": "You need to be proactive in solving problems at work.", "example_cn": "你需要在工作中主动解决问题。", "tip": "pro（向前）+ active（积极的）= 主动出击", "date_added": "2026-06-06", "lang": "en"},
   {"word": "concise", "phonetic": "/kənˈsaɪs/", "meaning": "简明的、简洁的", "example": "Please keep your report concise and to the point.", "example_cn": "请让你的报告简洁明了、切中要点。", "tip": "con（完全）+ cise（切）= 把多余的都切掉 = 简洁", "date_added": "2026-06-06", "lang": "en"},
@@ -357,7 +357,12 @@ var EMBEDDED_EN = [
   {"word":"recommend","phonetic":"/ˌrekəˈmend/","meaning":"推荐、建议","example":"Can you recommend a good restaurant near the office?","example_cn":"你能推荐一家办公室附近的好餐厅吗？","tip":"re（反复）+ commend（称赞）= 反复称赞 = 推荐。生活/职场高频：recommend sb to do sth = 建议某人做某事，recommendation（名词）= 推荐。点餐问店员、同事求推荐都靠它","date_added":"2026-08-19","lang":"en"},
   {"word":"repair","phonetic":"/rɪˈper/","meaning":"修理、维修","example":"The technician will repair the air conditioner tomorrow morning.","example_cn":"技术员明天早上会来修空调。","tip":"re（回）+ pair（准备）= 让东西恢复原样。与 fix 同义但更正式。生活高频：under repair = 正在维修、repair shop = 修理店。家里电器坏了找 repairman","date_added":"2026-08-19","lang":"en"},
   {"word":"permission","phonetic":"/pərˈmɪʃn/","meaning":"许可、允许","example":"You need the manager's permission to work from home.","example_cn":"在家办公需要得到经理的许可。","tip":"per（通过）+ miss（放行）+ ion = 放你通过。职场高频：ask for permission = 征求许可、with your permission = 如果您允许。动词 permit = 允许，反义词 prohibition","date_added":"2026-08-19","lang":"en"},
-  {"word":"benefit","phonetic":"/ˈbenɪfɪt/","meaning":"福利、好处；受益","example":"The company offers great benefits including health insurance.","example_cn":"这家公司提供很好的福利，包括医疗保险。","tip":"bene（好）+ fit（做）= 做好事得好处。职场高频：employee benefits = 员工福利、for your benefit = 为了你好；动词 benefit from = 从…中受益","date_added":"2026-08-19","lang":"en"}
+  {"word":"benefit","phonetic":"/ˈbenɪfɪt/","meaning":"福利、好处；受益","example":"The company offers great benefits including health insurance.","example_cn":"这家公司提供很好的福利，包括医疗保险。","tip":"bene（好）+ fit（做）= 做好事得好处。职场高频：employee benefits = 员工福利、for your benefit = 为了你好；动词 benefit from = 从…中受益","date_added":"2026-08-19","lang":"en"},
+  {"word":"submit","phonetic":"/səbˈmɪt/","meaning":"提交、呈递","example":"Please submit your report by Friday afternoon.","example_cn":"请于周五下午之前提交报告。","tip":"sub（向下）+ mit（送）= 把文件递上去 = 提交。职场超高频：submit an application = 提交申请、submit a proposal = 提交方案。与已学 request（申请）搭配：submit a request = 提交申请","date_added":"2026-08-19","lang":"en"},
+  {"word":"signature","phonetic":"/ˈsɪɡnətʃər/","meaning":"签名、署名","example":"Please put your signature at the bottom of the contract.","example_cn":"请在合同底部签名。","tip":"sign（签）+ ature = 亲手签下的名字。职场文件高频：signature page = 签名页、electronic signature = 电子签名。邮件的签名档也叫 signature","date_added":"2026-08-19","lang":"en"},
+  {"word":"maintenance","phonetic":"/ˈmeɪntənəns/","meaning":"维护、保养；维修费","example":"The building is under regular maintenance every month.","example_cn":"这栋楼每月定期进行维护。","tip":"maintain（维持）+ ance = 让东西保持良好状态。生活/职场双高频：maintenance fee = 维修费、routine maintenance = 例行保养","date_added":"2026-08-19","lang":"en"},
+  {"word":"quotation","phonetic":"/kwoʊˈteɪʃn/","meaning":"报价单、报价；引文","example":"We sent the quotation to the client for their review.","example_cn":"我们把报价单发给客户审阅。","tip":"quote（引用、报价）+ tion。职场采购高频：get a quotation = 询价、formal quotation = 正式报价单。口语常用动词 quote：Can you quote me a price? = 能给我报个价吗","date_added":"2026-08-19","lang":"en"},
+  {"word":"presentation","phonetic":"/ˌpriːzenˈteɪʃn/","meaning":"演示、陈述、报告","example":"She gave an impressive presentation at the annual meeting.","example_cn":"她在年会上做了一场令人印象深刻的演示。","tip":"present（呈现）+ ation = 把内容呈现给大家。职场超高频：make/give a presentation = 做演示、presentation deck = 演示文稿","date_added":"2026-08-19","lang":"en"}
 ];
 
 // 日语词库（195词，出差主题，39天 × 5）
