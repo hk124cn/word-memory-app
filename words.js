@@ -1,4 +1,4 @@
-// 英语词库（353词）
+// 英语词库（358词）
 var EMBEDDED_EN = [
   {"word": "proactive", "phonetic": "/proʊˈæktɪv/", "meaning": "主动的、抢先的", "example": "You need to be proactive in solving problems at work.", "example_cn": "你需要在工作中主动解决问题。", "tip": "pro（向前）+ active（积极的）= 主动出击", "date_added": "2026-06-06", "lang": "en"},
   {"word": "concise", "phonetic": "/kənˈsaɪs/", "meaning": "简明的、简洁的", "example": "Please keep your report concise and to the point.", "example_cn": "请让你的报告简洁明了、切中要点。", "tip": "con（完全）+ cise（切）= 把多余的都切掉 = 简洁", "date_added": "2026-06-06", "lang": "en"},
@@ -352,7 +352,12 @@ var EMBEDDED_EN = [
   {"word":"troubleshoot","phonetic":"/ˈtrʌblʃuːt/","meaning":"排查故障、解决问题","example":"The IT team came to troubleshoot the network problem.","example_cn":"IT 团队过来排查网络故障。","tip":"trouble（麻烦）+ shoot（射击）= 把麻烦打掉。职场科技高频词：troubleshoot an issue = 排查问题，名词 troubleshooting","date_added":"2026-08-18","lang":"en"},
   {"word":"consent","phonetic":"/kənˈsent/","meaning":"同意、准许、许可","example":"You need the manager's consent before changing the contract.","example_cn":"修改合同前你需要得到经理的同意。","tip":"con（共同）+ sent（感觉）= 想法一致 = 同意。职场合规高频：give consent = 给予同意、withhold consent = 拒绝同意","date_added":"2026-08-18","lang":"en"},
   {"word":"swipe","phonetic":"/swaɪp/","meaning":"刷（卡）；滑动、轻扫","example":"You can swipe your card to pay at the counter.","example_cn":"你可以在柜台刷卡支付。","tip":"拟声词，模拟快速划过的声音。生活高频：swipe a card = 刷卡、swipe left/right = 手机左右滑动","date_added":"2026-08-18","lang":"en"},
-  {"word":"license","phonetic":"/ˈlaɪsns/","meaning":"许可证、执照；准许","example":"Driving without a license is illegal in most countries.","example_cn":"在大多数国家无证驾驶是违法的。","tip":"lic（允许）+ ense（名词后缀）= 被允许的凭证。驾照 = driver's license、软件许可 = software license。美式拼写 license，英式名词 licence","date_added":"2026-08-18","lang":"en"}
+  {"word":"license","phonetic":"/ˈlaɪsns/","meaning":"许可证、执照；准许","example":"Driving without a license is illegal in most countries.","example_cn":"在大多数国家无证驾驶是违法的。","tip":"lic（允许）+ ense（名词后缀）= 被允许的凭证。驾照 = driver's license、软件许可 = software license。美式拼写 license，英式名词 licence","date_added":"2026-08-18","lang":"en"},
+  {"word":"vacation","phonetic":"/veɪˈkeɪʃn/","meaning":"假期、休假","example":"I'm planning a beach vacation with my family next month.","example_cn":"下个月我计划和家人去海边度假。","tip":"vac（空）+ ation = 把工作清空的时间。美式说 vacation（休假），英式常说 holiday；on vacation = 在休假中，take a vacation = 去度假。职场请假常用 annual leave","date_added":"2026-08-19","lang":"en"},
+  {"word":"recommend","phonetic":"/ˌrekəˈmend/","meaning":"推荐、建议","example":"Can you recommend a good restaurant near the office?","example_cn":"你能推荐一家办公室附近的好餐厅吗？","tip":"re（反复）+ commend（称赞）= 反复称赞 = 推荐。生活/职场高频：recommend sb to do sth = 建议某人做某事，recommendation（名词）= 推荐。点餐问店员、同事求推荐都靠它","date_added":"2026-08-19","lang":"en"},
+  {"word":"repair","phonetic":"/rɪˈper/","meaning":"修理、维修","example":"The technician will repair the air conditioner tomorrow morning.","example_cn":"技术员明天早上会来修空调。","tip":"re（回）+ pair（准备）= 让东西恢复原样。与 fix 同义但更正式。生活高频：under repair = 正在维修、repair shop = 修理店。家里电器坏了找 repairman","date_added":"2026-08-19","lang":"en"},
+  {"word":"permission","phonetic":"/pərˈmɪʃn/","meaning":"许可、允许","example":"You need the manager's permission to work from home.","example_cn":"在家办公需要得到经理的许可。","tip":"per（通过）+ miss（放行）+ ion = 放你通过。职场高频：ask for permission = 征求许可、with your permission = 如果您允许。动词 permit = 允许，反义词 prohibition","date_added":"2026-08-19","lang":"en"},
+  {"word":"benefit","phonetic":"/ˈbenɪfɪt/","meaning":"福利、好处；受益","example":"The company offers great benefits including health insurance.","example_cn":"这家公司提供很好的福利，包括医疗保险。","tip":"bene（好）+ fit（做）= 做好事得好处。职场高频：employee benefits = 员工福利、for your benefit = 为了你好；动词 benefit from = 从…中受益","date_added":"2026-08-19","lang":"en"}
 ];
 
 // 日语词库（195词，出差主题，39天 × 5）
