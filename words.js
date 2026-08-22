@@ -1,4 +1,4 @@
-// 英语词库（378词）
+// 英语词库（383词）
 var EMBEDDED_EN = [
   {"word": "proactive", "phonetic": "/proʊˈæktɪv/", "meaning": "主动的、抢先的", "example": "You need to be proactive in solving problems at work.", "example_cn": "你需要在工作中主动解决问题。", "tip": "pro（向前）+ active（积极的）= 主动出击", "date_added": "2026-06-06", "lang": "en"},
   {"word": "concise", "phonetic": "/kənˈsaɪs/", "meaning": "简明的、简洁的", "example": "Please keep your report concise and to the point.", "example_cn": "请让你的报告简洁明了、切中要点。", "tip": "con（完全）+ cise（切）= 把多余的都切掉 = 简洁", "date_added": "2026-06-06", "lang": "en"},
@@ -377,7 +377,12 @@ var EMBEDDED_EN = [
   {"word":"express","phonetic":"/ɪkˈspres/","meaning":"表达；快递的","example":"It's important to express your ideas clearly in meetings.","example_cn":"在会议中清晰表达自己的想法很重要。","tip":"ex（向外）+ press（压）= 把想法压出来 = 表达。一词双高频：express delivery = 快递、express your opinion = 表达观点；名词 expression = 表达/表情","date_added":"2026-08-21","lang":"en"},
   {"word":"estimate","phonetic":"/ˈestɪmeɪt/","meaning":"估计、估算；估价","example":"The contractor gave us an estimate of 5,000 yuan for the repairs.","example_cn":"承包商给我们的维修估价是5000元。","tip":"商务高频：rough estimate = 粗略估计、cost estimate = 成本估算。注意动词读 /ˈestɪmeɪt/，名词读 /ˈestɪmət/，重音不同","date_added":"2026-08-21","lang":"en"},
   {"word":"transfer","phonetic":"/trænsˈfɜːr/","meaning":"转账、转移；换乘","example":"I need to transfer some money to my landlord.","example_cn":"我需要给房东转一些钱。","tip":"trans（穿过）+ fer（携带）= 从一处带到另一处。生活高频：bank transfer = 银行转账、transfer to another line = 转接电话/换乘线路","date_added":"2026-08-21","lang":"en"},
-  {"word":"currency","phonetic":"/ˈkʌrənsi/","meaning":"货币、通货","example":"You can exchange currency at the airport or the bank.","example_cn":"你可以在机场或银行兑换货币。","tip":"cur（流动）+ rency = 流通的东西 = 货币。出行必备：foreign currency = 外币、exchange rate = 汇率；同源词 current（流动的）","date_added":"2026-08-21","lang":"en"}
+  {"word":"currency","phonetic":"/ˈkʌrənsi/","meaning":"货币、通货","example":"You can exchange currency at the airport or the bank.","example_cn":"你可以在机场或银行兑换货币。","tip":"cur（流动）+ rency = 流通的东西 = 货币。出行必备：foreign currency = 外币、exchange rate = 汇率；同源词 current（流动的）","date_added":"2026-08-21","lang":"en"},
+  {"word":"conference","phonetic":"/ˈkɒnfərəns/","meaning":"会议、大型会议","example":"I will attend a three-day conference in Shanghai next week.","example_cn":"下周我要去上海参加一个为期三天的会议。","tip":"con（共同）+ fer（带来）+ ence = 把大家聚到一起。职场高频：video conference = 视频会议、press conference = 新闻发布会；比 meeting 更正式、规模更大","date_added":"2026-08-22","lang":"en"},
+  {"word":"visa","phonetic":"/ˈviːzə/","meaning":"签证","example":"You need a visa to enter most foreign countries.","example_cn":"进入大多数外国国家都需要签证。","tip":"源自拉丁语「visa（已见、已查验）」= 盖章验过才能入境。出差必备：business visa = 商务签证、visa on arrival = 落地签；和 passport（护照）配套记","date_added":"2026-08-22","lang":"en"},
+  {"word":"backlog","phonetic":"/ˈbæklɒɡ/","meaning":"积压的工作、待办事项","example":"I have a huge backlog of emails to reply to after the trip.","example_cn":"出差回来后我积压了大量邮件要回复。","tip":"back（后面）+ log（原木）= 堆在后面没烧的柴 = 积压的工作。项目/职场高频：work backlog = 积压的工作；「clear the backlog」= 清掉积压的任务","date_added":"2026-08-22","lang":"en"},
+  {"word":"privacy","phonetic":"/ˈpraɪvəsi/","meaning":"隐私、私密性","example":"Protect your privacy when using public Wi-Fi.","example_cn":"使用公共Wi-Fi时要注意保护隐私。","tip":"private（私人的）+ cy = 私人的状态。数字时代高频：privacy policy = 隐私政策、invade one's privacy = 侵犯隐私；同源词 private（私人的）","date_added":"2026-08-22","lang":"en"},
+  {"word":"account","phonetic":"/əˈkaʊnt/","meaning":"账户、账目；说明","example":"I opened a savings account at the local bank.","example_cn":"我在当地银行开了一个储蓄账户。","tip":"ac（向）+ count（数）= 数清楚钱的事 = 账目。生活高频：bank account = 银行账户、log in to your account = 登录账户、take into account = 把…考虑在内","date_added":"2026-08-22","lang":"en"}
 ];
 
 // 日语词库（195词，出差主题，39天 × 5）
