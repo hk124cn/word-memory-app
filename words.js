@@ -1,4 +1,4 @@
-// 英语词库（388词）
+// 英语词库（393词）
 var EMBEDDED_EN = [
   {"word": "proactive", "phonetic": "/proʊˈæktɪv/", "meaning": "主动的、抢先的", "example": "You need to be proactive in solving problems at work.", "example_cn": "你需要在工作中主动解决问题。", "tip": "pro（向前）+ active（积极的）= 主动出击", "date_added": "2026-06-06", "lang": "en"},
   {"word": "concise", "phonetic": "/kənˈsaɪs/", "meaning": "简明的、简洁的", "example": "Please keep your report concise and to the point.", "example_cn": "请让你的报告简洁明了、切中要点。", "tip": "con（完全）+ cise（切）= 把多余的都切掉 = 简洁", "date_added": "2026-06-06", "lang": "en"},
@@ -387,7 +387,13 @@ var EMBEDDED_EN = [
   {"word":"rent","phonetic":"/rent/","meaning":"租金；租用","example":"I pay 2,500 yuan a month in rent for my apartment.","example_cn":"我的公寓每月房租是2500元。","tip":"一词两用：名词=租金，动词=租。租房必备：monthly rent = 月租、rent an apartment = 租房；和 landlord（房东，已学）配套记，续租可用 renew（已学）","date_added":"2026-08-23","lang":"en"},
   {"word":"deliver","phonetic":"/dɪˈlɪvər/","meaning":"投递、交付；兑现","example":"The courier will deliver the package before 6 pm.","example_cn":"快递员会在下午6点前送达包裹。","tip":"名词 delivery（已学）= 投递/交付。职场用法更广：deliver a report = 交付报告、deliver a speech = 发表演讲；老板说 you need to deliver = 你要兑现承诺、拿出成果","date_added":"2026-08-23","lang":"en"},
   {"word":"receptionist","phonetic":"/rɪˈsepʃənɪst/","meaning":"前台接待员","example":"Ask the receptionist to book a taxi for you.","example_cn":"让前台接待员帮你叫一辆出租车。","tip":"reception（接待、前台）+ ist（人）= 前台接待员。住酒店、拜访客户常打交道：front desk = 前台、check in = 办理入住（已学）；比已学 staff 更具体","date_added":"2026-08-23","lang":"en"},
-  {"word":"assemble","phonetic":"/əˈsembl/","meaning":"组装、集合、召集","example":"It took me two hours to assemble the new bookshelf.","example_cn":"组装这个新书架花了我两个小时。","tip":"as（向）+ semble（聚在一起）= 把零件/人聚到一起。生活：assemble furniture = 组装家具；职场：assemble a team = 组建团队、assemble data = 汇总数据；名词 assembly = 装配/集会","date_added":"2026-08-23","lang":"en"}
+  {"word":"assemble","phonetic":"/əˈsembl/","meaning":"组装、集合、召集","example":"It took me two hours to assemble the new bookshelf.","example_cn":"组装这个新书架花了我两个小时。","tip":"as（向）+ semble（聚在一起）= 把零件/人聚到一起。生活：assemble furniture = 组装家具；职场：assemble a team = 组建团队、assemble data = 汇总数据；名词 assembly = 装配/集会","date_added":"2026-08-23","lang":"en"},
+  {"word":"expertise","phonetic":"/ˌekspɜːrˈtiːz/","meaning":"专业知识、专长","example":"She has extensive expertise in data analysis.","example_cn":"她在数据分析方面有丰富的专业知识。","tip":"expert（专家）+ ise（名词后缀）= 专家的本事。职场简历高频词：technical expertise = 技术专长；比 knowledge 更强调「专业级」","date_added":"2026-08-23","lang":"en"},
+  {"word":"recipient","phonetic":"/rɪˈsɪpiənt/","meaning":"接收者、收件人","example":"The recipient of the award will be announced tomorrow.","example_cn":"该奖项的获得者将于明天公布。","tip":"receive（接收）变体 receive→recipient = 接收的人。发邮件/转账时常用：recipient = 收件人、收款人，与 sender（发件人）相对","date_added":"2026-08-23","lang":"en"},
+  {"word":"legitimate","phonetic":"/lɪˈdʒɪtɪmət/","meaning":"合法的、正当的、合理的","example":"Do you have a legitimate reason for being late?","example_cn":"你迟到有正当理由吗？","tip":"leg（法律）+ itimate = 站得住「法」的 = 合法。职场常问 legitimate reason（正当理由）；注意别和 legal 混淆，legitimate 更强调「合情合理」","date_added":"2026-08-23","lang":"en"},
+  {"word":"robust","phonetic":"/roʊˈbʌst/","meaning":"稳健的、强健的、坚固的","example":"The new system is robust enough to handle high traffic.","example_cn":"新系统足够稳健，能应对高流量。","tip":"发音像「肉棒思特」→ 壮实扛得住。IT/职场高频：robust system = 健壮的系统、robust plan = 稳妥的方案；与 strong 相比更强调「经得起考验」","date_added":"2026-08-23","lang":"en"},
+  {"word":"imminent","phonetic":"/ˈɪmɪnənt/","meaning":"即将发生的、迫近的","example":"A big announcement is imminent.","example_cn":"一项重大公告即将发布。","tip":"im（进入）+ minent（突出）= 已经冒到眼前 = 迫在眉睫。新闻高频：imminent danger = 迫在眉睫的危险；别和 famous 的同根词 eminent（杰出的）搞混","date_added":"2026-08-23","lang":"en"}
+
 ];
 
 // 日语词库（195词，出差主题，39天 × 5）
