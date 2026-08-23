@@ -1,4 +1,4 @@
-// 英语词库（383词）
+// 英语词库（388词）
 var EMBEDDED_EN = [
   {"word": "proactive", "phonetic": "/proʊˈæktɪv/", "meaning": "主动的、抢先的", "example": "You need to be proactive in solving problems at work.", "example_cn": "你需要在工作中主动解决问题。", "tip": "pro（向前）+ active（积极的）= 主动出击", "date_added": "2026-06-06", "lang": "en"},
   {"word": "concise", "phonetic": "/kənˈsaɪs/", "meaning": "简明的、简洁的", "example": "Please keep your report concise and to the point.", "example_cn": "请让你的报告简洁明了、切中要点。", "tip": "con（完全）+ cise（切）= 把多余的都切掉 = 简洁", "date_added": "2026-06-06", "lang": "en"},
@@ -382,7 +382,12 @@ var EMBEDDED_EN = [
   {"word":"visa","phonetic":"/ˈviːzə/","meaning":"签证","example":"You need a visa to enter most foreign countries.","example_cn":"进入大多数外国国家都需要签证。","tip":"源自拉丁语「visa（已见、已查验）」= 盖章验过才能入境。出差必备：business visa = 商务签证、visa on arrival = 落地签；和 passport（护照）配套记","date_added":"2026-08-22","lang":"en"},
   {"word":"backlog","phonetic":"/ˈbæklɒɡ/","meaning":"积压的工作、待办事项","example":"I have a huge backlog of emails to reply to after the trip.","example_cn":"出差回来后我积压了大量邮件要回复。","tip":"back（后面）+ log（原木）= 堆在后面没烧的柴 = 积压的工作。项目/职场高频：work backlog = 积压的工作；「clear the backlog」= 清掉积压的任务","date_added":"2026-08-22","lang":"en"},
   {"word":"privacy","phonetic":"/ˈpraɪvəsi/","meaning":"隐私、私密性","example":"Protect your privacy when using public Wi-Fi.","example_cn":"使用公共Wi-Fi时要注意保护隐私。","tip":"private（私人的）+ cy = 私人的状态。数字时代高频：privacy policy = 隐私政策、invade one's privacy = 侵犯隐私；同源词 private（私人的）","date_added":"2026-08-22","lang":"en"},
-  {"word":"account","phonetic":"/əˈkaʊnt/","meaning":"账户、账目；说明","example":"I opened a savings account at the local bank.","example_cn":"我在当地银行开了一个储蓄账户。","tip":"ac（向）+ count（数）= 数清楚钱的事 = 账目。生活高频：bank account = 银行账户、log in to your account = 登录账户、take into account = 把…考虑在内","date_added":"2026-08-22","lang":"en"}
+  {"word":"account","phonetic":"/əˈkaʊnt/","meaning":"账户、账目；说明","example":"I opened a savings account at the local bank.","example_cn":"我在当地银行开了一个储蓄账户。","tip":"ac（向）+ count（数）= 数清楚钱的事 = 账目。生活高频：bank account = 银行账户、log in to your account = 登录账户、take into account = 把…考虑在内","date_added":"2026-08-22","lang":"en"},
+  {"word":"traffic","phonetic":"/ˈtræfɪk/","meaning":"交通、车流","example":"I was stuck in heavy traffic on my way to work this morning.","example_cn":"今天早上上班路上我遇到了严重堵车。","tip":"通勤超高频：traffic jam = 堵车、rush hour = 早晚高峰、traffic light = 红绿灯。堵车就说 stuck in traffic；与 commute（通勤，已学）配套记","date_added":"2026-08-23","lang":"en"},
+  {"word":"rent","phonetic":"/rent/","meaning":"租金；租用","example":"I pay 2,500 yuan a month in rent for my apartment.","example_cn":"我的公寓每月房租是2500元。","tip":"一词两用：名词=租金，动词=租。租房必备：monthly rent = 月租、rent an apartment = 租房；和 landlord（房东，已学）配套记，续租可用 renew（已学）","date_added":"2026-08-23","lang":"en"},
+  {"word":"deliver","phonetic":"/dɪˈlɪvər/","meaning":"投递、交付；兑现","example":"The courier will deliver the package before 6 pm.","example_cn":"快递员会在下午6点前送达包裹。","tip":"名词 delivery（已学）= 投递/交付。职场用法更广：deliver a report = 交付报告、deliver a speech = 发表演讲；老板说 you need to deliver = 你要兑现承诺、拿出成果","date_added":"2026-08-23","lang":"en"},
+  {"word":"receptionist","phonetic":"/rɪˈsepʃənɪst/","meaning":"前台接待员","example":"Ask the receptionist to book a taxi for you.","example_cn":"让前台接待员帮你叫一辆出租车。","tip":"reception（接待、前台）+ ist（人）= 前台接待员。住酒店、拜访客户常打交道：front desk = 前台、check in = 办理入住（已学）；比已学 staff 更具体","date_added":"2026-08-23","lang":"en"},
+  {"word":"assemble","phonetic":"/əˈsembl/","meaning":"组装、集合、召集","example":"It took me two hours to assemble the new bookshelf.","example_cn":"组装这个新书架花了我两个小时。","tip":"as（向）+ semble（聚在一起）= 把零件/人聚到一起。生活：assemble furniture = 组装家具；职场：assemble a team = 组建团队、assemble data = 汇总数据；名词 assembly = 装配/集会","date_added":"2026-08-23","lang":"en"}
 ];
 
 // 日语词库（195词，出差主题，39天 × 5）
