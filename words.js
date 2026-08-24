@@ -1,4 +1,4 @@
-// 英语词库（393词）
+// 英语词库（398词）
 var EMBEDDED_EN = [
   {"word": "proactive", "phonetic": "/proʊˈæktɪv/", "meaning": "主动的、抢先的", "example": "You need to be proactive in solving problems at work.", "example_cn": "你需要在工作中主动解决问题。", "tip": "pro（向前）+ active（积极的）= 主动出击", "date_added": "2026-06-06", "lang": "en"},
   {"word": "concise", "phonetic": "/kənˈsaɪs/", "meaning": "简明的、简洁的", "example": "Please keep your report concise and to the point.", "example_cn": "请让你的报告简洁明了、切中要点。", "tip": "con（完全）+ cise（切）= 把多余的都切掉 = 简洁", "date_added": "2026-06-06", "lang": "en"},
@@ -392,8 +392,12 @@ var EMBEDDED_EN = [
   {"word":"recipient","phonetic":"/rɪˈsɪpiənt/","meaning":"接收者、收件人","example":"The recipient of the award will be announced tomorrow.","example_cn":"该奖项的获得者将于明天公布。","tip":"receive（接收）变体 receive→recipient = 接收的人。发邮件/转账时常用：recipient = 收件人、收款人，与 sender（发件人）相对","date_added":"2026-08-23","lang":"en"},
   {"word":"legitimate","phonetic":"/lɪˈdʒɪtɪmət/","meaning":"合法的、正当的、合理的","example":"Do you have a legitimate reason for being late?","example_cn":"你迟到有正当理由吗？","tip":"leg（法律）+ itimate = 站得住「法」的 = 合法。职场常问 legitimate reason（正当理由）；注意别和 legal 混淆，legitimate 更强调「合情合理」","date_added":"2026-08-23","lang":"en"},
   {"word":"robust","phonetic":"/roʊˈbʌst/","meaning":"稳健的、强健的、坚固的","example":"The new system is robust enough to handle high traffic.","example_cn":"新系统足够稳健，能应对高流量。","tip":"发音像「肉棒思特」→ 壮实扛得住。IT/职场高频：robust system = 健壮的系统、robust plan = 稳妥的方案；与 strong 相比更强调「经得起考验」","date_added":"2026-08-23","lang":"en"},
-  {"word":"imminent","phonetic":"/ˈɪmɪnənt/","meaning":"即将发生的、迫近的","example":"A big announcement is imminent.","example_cn":"一项重大公告即将发布。","tip":"im（进入）+ minent（突出）= 已经冒到眼前 = 迫在眉睫。新闻高频：imminent danger = 迫在眉睫的危险；别和 famous 的同根词 eminent（杰出的）搞混","date_added":"2026-08-23","lang":"en"}
-
+  {"word":"imminent","phonetic":"/ˈɪmɪnənt/","meaning":"即将发生的、迫近的","example":"A big announcement is imminent.","example_cn":"一项重大公告即将发布。","tip":"im（进入）+ minent（突出）= 已经冒到眼前 = 迫在眉睫。新闻高频：imminent danger = 迫在眉睫的危险；别和 famous 的同根词 eminent（杰出的）搞混","date_added":"2026-08-23","lang":"en"},
+  {"word":"emergency","phonetic":"/ɪˈmɜːrdʒənsi/","meaning":"紧急情况、突发事件","example":"In case of emergency, call the front desk immediately.","example_cn":"遇到紧急情况，请立即联系前台。","tip":"emerg（浮现）+ ency = 突然冒出来的状况。生活超高频：emergency exit = 安全出口、emergency contact = 紧急联系人；和已学 urgent（紧急的）配套记","date_added":"2026-08-24","lang":"en"},
+  {"word":"assignment","phonetic":"/əˈsaɪnmənt/","meaning":"任务、作业；分派","example":"I have a tough assignment to finish by Friday.","example_cn":"我有一项艰巨的任务要在周五前完成。","tip":"assign（分配）+ ment = 分派下来的活儿。学生说 homework/assignment，职场说 assignment/task；老板给你 new assignment = 新任务，和已学 deadline（截止日）搭配用","date_added":"2026-08-24","lang":"en"},
+  {"word":"hospitality","phonetic":"/ˌhɑːspɪˈtæləti/","meaning":"热情好客、款待；酒店餐饮业","example":"The hospitality industry is booming in this city.","example_cn":"这座城市的生活服务行业正在蓬勃发展。","tip":"词根 hospes（客人）→ 待客之道，和 hospital（医院）同源。the hospitality industry = 酒店餐饮服务业；与已学 receptionist（前台）、venue（场地）同属出差接待场景","date_added":"2026-08-24","lang":"en"},
+  {"word":"facility","phonetic":"/fəˈsɪləti/","meaning":"设施、设备、场所","example":"The hotel has excellent facilities, including a gym and a pool.","example_cn":"这家酒店设施一流，有健身房和游泳池。","tip":"facil（容易）+ ity = 让事情变容易的硬件。常用复数 facilities：sports facilities = 运动设施；与已学 facilitate（促进）同根，一个指硬件一个指动作","date_added":"2026-08-24","lang":"en"},
+  {"word":"precaution","phonetic":"/prɪˈkɔːʃn/","meaning":"预防措施、防范","example":"We should take precautions against fire in the office.","example_cn":"我们应该采取防火措施。","tip":"pre（提前）+ caution（小心）= 提前小心 = 预防。take precautions = 采取预防措施、safety precaution = 安全防范；与已学 contingency（应急方案）配套：precaution 防患于未然，contingency 兜底于事后","date_added":"2026-08-24","lang":"en"}
 ];
 
 // 日语词库（195词，出差主题，39天 × 5）
@@ -931,7 +935,8 @@ var EMBEDDED_JA = [
   ,{"word":"シートベルト","reading":"しーとべると","romaji":"shīto beruto","meaning":"安全带","example":"飛行機の中ではシートベルトを締めてください。","example_cn":"在飞机上请系好安全带。","tip":"seat belt 的外来语。机内广播高频：「シートベルトを着用してください」= 请系好安全带、「シートベルトサインが消えました」= 安全带指示灯已熄灭。与已学「離陸」「着陸」配套：起飞、降落和气流颠簸（揺れ）时都必须系好。","date_added":"2026-08-11","lang":"ja"}
   ,{"word":"払い戻し","reading":"はらいもどし","romaji":"haraimodoshi","meaning":"退款、退票、退还费用","example":"切符の払い戻しをお願いします。","example_cn":"请帮我办理退票。","tip":"払い（支付）+戻し（退回）=把钱退回来。车站「払い戻し窓口」=退票窗口；取消机票说「航空券の払い戻し」。与已学「返金」区分：返金=商家主动退钱，払い戻し=顾客申请退还票款。注意有些票注明「払い戻し不可」=不可退票，购票前先确认。","date_added":"2026-08-11","lang":"ja"}
   ,{"word":"発言","reading":"はつげん","romaji":"hatsugen","meaning":"发言、发表意见","example":"会議で積極的に発言しましょう。","example_cn":"在会议上要积极地发言。","tip":"発（发出）+言（话语）=在会议等场合说出想法。商务会议高频：「発言する」=发言、「ご発言ください」=请发言。与「質問」区分：質問=提问，発言=泛指发表看法。主持人常说「自由に発言してください」=请自由发言，出差开会别只顾记录、勇于発言。","date_added":"2026-08-11","lang":"ja"}
-  ,{"word":"クレーム","reading":"くれーむ","romaji":"kurēmu","meaning":"投诉、索赔（口语多指投诉）","example":"ホテルにクレームを伝えました。","example_cn":"我向酒店提出了投诉。","tip":"英语 claim 的外来语。注意日语クレーム多指「投诉」（房间没打扫、餐点送错等），与英文原意「索赔」略有不同。出差高频「クレーム対応」=投诉处理；服务出问题时说「クレームをいただきました」=收到了投诉。处理得当能挽回客户信任。","date_added":"2026-08-11","lang":"ja"},
+  ,{"word":"クレーム","reading":"くれーむ","romaji":"kurēmu","meaning":"投诉、索赔（口语多指投诉）","example":"ホテルにクレームを伝えました。","example_cn":"我向酒店提出了投诉。","tip":"英语 claim 的外来语。注意日语クレーム多指「投诉」（房间没打扫、餐点送错等），与英文原意「索赔」略有不同。出差高频「クレーム対応」=投诉处理；服务出问题时说「クレームをいただきました」=收到了投诉。处理得当能挽回客户信任。","date_added":"2026-08-11","lang":"ja"}
+,
   // ===== Day 71-2: 出差结算·通勤高峰·交通IC卡·商务礼仪·会议主持 =====
   {"word":"支払い","reading":"しはらい","romaji":"shiharai","meaning":"付款、支付","example":"支払いは現金とカード、どちらにしますか。","example_cn":"您用现金还是银行卡付款？","tip":"支払（支付）+ い=付款。出差高频词：餐厅、酒店、打车结账时对方常问「お支払いはどうされますか」= 您怎么付款。可分「現金払い」现金支付、「カード払い」刷卡、「分割払い」分期。与已学「会計」（结账动作）、「請求書」（账单）、「振込」（转账）、「現金」配套，构成出差花钱四件套。","date_added":"2026-08-11","lang":"ja"},
   {"word":"ラッシュ","reading":"らっしゅ","romaji":"rasshu","meaning":"高峰时段、拥挤时段","example":"ラッシュの時間帯を避けて電車に乗ります。","example_cn":"我避开高峰时段乘坐电车。","tip":"英语 rush（拥挤）的省略，完整说「ラッシュアワー」。日本电车高峰（早7:30-9:00、晚18-20点）挤到超乎想象，正是已学「満員電車」的元凶。出差赶早班机、新干线尽量错峰；车站广播常报「ラッシュ時は大変混雑します」= 高峰时段非常拥挤。与已学「始発」「終電」「満員」配套。","date_added":"2026-08-11","lang":"ja"},
