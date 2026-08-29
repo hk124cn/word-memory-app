@@ -1,4 +1,4 @@
-// 英语词库（403词）
+// 英语词库（408词）
 var EMBEDDED_EN = [
   {"word": "proactive", "phonetic": "/proʊˈæktɪv/", "meaning": "主动的、抢先的", "example": "You need to be proactive in solving problems at work.", "example_cn": "你需要在工作中主动解决问题。", "tip": "pro（向前）+ active（积极的）= 主动出击", "date_added": "2026-06-06", "lang": "en"},
   {"word": "concise", "phonetic": "/kənˈsaɪs/", "meaning": "简明的、简洁的", "example": "Please keep your report concise and to the point.", "example_cn": "请让你的报告简洁明了、切中要点。", "tip": "con（完全）+ cise（切）= 把多余的都切掉 = 简洁", "date_added": "2026-06-06", "lang": "en"},
@@ -402,7 +402,12 @@ var EMBEDDED_EN = [
   {"word":"password","phonetic":"/ˈpæswɜːrd/","meaning":"密码、口令","example":"Don't share your password with anyone at the office.","example_cn":"不要和办公室里的任何人分享你的密码。","tip":"pass（通过）+ word（词）= 通过验证的暗号。IT 安全高频：reset your password = 重置密码、strong password = 强密码；与已学 confidential（机密的）、privacy（隐私）配套记","date_added":"2026-08-27","lang":"en"},
   {"word":"download","phonetic":"/ˌdaʊnˈloʊd/","meaning":"下载","example":"You can download the app from the official website.","example_cn":"你可以从官网下载这个应用程序。","tip":"down（向下）+ load（装载）= 从服务器“装下来”。反义词 upload（上传）；数码生活高频：download the file = 下载文件、free download = 免费下载；与已学 upgrade（升级）、install（安装）配套使用","date_added":"2026-08-27","lang":"en"},
   {"word":"report","phonetic":"/rɪˈpɔːrt/","meaning":"报告、汇报；报道","example":"Please submit your report by the end of the week.","example_cn":"请在周末前提交你的报告。","tip":"re（回）+ port（搬运）= 把情况搬回来 = 汇报。名词“报告”、动词“汇报”：annual report = 年报、progress report = 进度报告；与已学 deliverable（交付物）、deadline（截止日）搭配","date_added":"2026-08-27","lang":"en"},
-  {"word":"return","phonetic":"/rɪˈtɜːrn/","meaning":"返回；退还、退货","example":"If the shoes don't fit, you can return them within 30 days.","example_cn":"如果鞋子不合脚，你可以在30天内退货。","tip":"re（回）+ turn（转）= 转回来。生活超高频多义词：return a product = 退货、round-trip return ticket = 返程票；与已学 refund（退款）、receipt（收据）构成“退货三件套”","date_added":"2026-08-27","lang":"en"}
+  {"word":"return","phonetic":"/rɪˈtɜːrn/","meaning":"返回；退还、退货","example":"If the shoes don't fit, you can return them within 30 days.","example_cn":"如果鞋子不合脚，你可以在30天内退货。","tip":"re（回）+ turn（转）= 转回来。生活超高频多义词：return a product = 退货、round-trip return ticket = 返程票；与已学 refund（退款）、receipt（收据）构成“退货三件套”","date_added":"2026-08-27","lang":"en"},
+  {"word":"meeting","phonetic":"/ˈmiːtɪŋ/","meaning":"会议","example":"Our team meeting is scheduled for nine o'clock tomorrow morning.","example_cn":"我们团队的会议安排在明早九点。","tip":"meet（遇见）+ ing = 大家碰面议事。职场最高频词：attend a meeting = 参加会议、take meeting notes = 做会议纪要；与已学 agenda（议程）、recap（回顾要点）配套","date_added":"2026-08-29","lang":"en"},
+  {"word":"summary","phonetic":"/ˈsʌməri/","meaning":"摘要、总结","example":"Please write a brief summary of the meeting and share it with the team.","example_cn":"请写一份简短的会议摘要并分享给团队。","tip":"sum（总数、全部）+ mary = 把要点全收拢成一段。动词 summarize = 总结；in summary = 总而言之；与已学 concise（简洁的）、briefing（简报）配套","date_added":"2026-08-29","lang":"en"},
+  {"word":"equipment","phonetic":"/ɪˈkwɪpmənt/","meaning":"设备、器材","example":"Make sure all the equipment is checked before the training session.","example_cn":"培训开始前要确保所有设备都检查过。","tip":"equip（装备）+ ment（名词后缀）。不可数名词，一件设备要说 a piece of equipment；与已学 facility（设施）、appliance（家用电器）区分：equipment 泛指工具器材","date_added":"2026-08-29","lang":"en"},
+  {"word":"transaction","phonetic":"/trænˈzækʃn/","meaning":"交易、办理","example":"The bank will confirm your transaction within a few minutes.","example_cn":"银行会在几分钟内确认你的交易。","tip":"trans（跨越）+ act（做）+ ion = 钱从一方“跨”到另一方。财务高频：online transaction = 线上交易、transaction fee = 手续费；与已学 transfer（转账）、receipt（收据）配套","date_added":"2026-08-29","lang":"en"},
+  {"word":"neighbor","phonetic":"/ˈneɪbər/","meaning":"邻居","example":"Our neighbor helped us carry the packages to the door.","example_cn":"我们的邻居帮我们把包裹搬到了门口。","tip":"neigh（附近，同 nigh）+ bor（居住者）= 住在附近的人。美式拼写 neighbor，英式 neighbour；a good neighbor = 好邻居；与已学 landlord（房东）同属“邻里关系”场景","date_added":"2026-08-29","lang":"en"}
 ];
 
 // 日语词库（195词，出差主题，39天 × 5）
