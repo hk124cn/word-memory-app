@@ -456,3 +456,13 @@ coverage
 portfolio
 baggage
 expire
+tenant
+pharmacy
+courier
+internship
+teamwork
+brainstorm
+detour
+checkup
+symptom
+shortcut
