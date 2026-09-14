@@ -466,3 +466,8 @@ detour
 checkup
 symptom
 shortcut
+draft
+review
+minutes
+certificate
+payslip
