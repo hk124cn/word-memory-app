@@ -476,3 +476,13 @@ deduction
 permit
 premium
 furniture
+audit
+shipment
+pension
+stationery
+pedestrian
+warehouse
+tuition
+merger
+mileage
+hygiene
