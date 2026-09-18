@@ -58,6 +58,7 @@ bottleneck
 brainstorm
 brief
 briefing
+brochure
 budget
 burnout
 calendar
@@ -76,6 +77,7 @@ checkup
 clarify
 clarity
 clause
+clearance
 client
 cogent
 cohesive
@@ -149,6 +151,7 @@ dispatch
 disrupt
 distinguish
 diverse
+dividend
 download
 draft
 effective
@@ -166,6 +169,7 @@ endeavor
 endorse
 enhance
 ensure
+envelope
 equipment
 escalate
 essential
@@ -192,6 +196,7 @@ fridge
 frugal
 fulfill
 furniture
+garage
 genuinely
 grasp
 grateful
@@ -285,6 +290,7 @@ overlook
 overtime
 overwhelm
 ownership
+pantry
 paradigm
 password
 payment
@@ -369,6 +375,7 @@ reminder
 reminisce
 remote
 renew
+renovation
 rent
 repair
 report
@@ -392,6 +399,7 @@ reward
 roadmap
 robust
 rollout
+roster
 routine
 salary
 scan
@@ -402,6 +410,7 @@ screenshot
 scrutinize
 scrutiny
 seamless
+seminar
 setback
 shift
 shipment
@@ -431,6 +440,7 @@ supervisor
 sustainable
 swipe
 switch
+syllabus
 symptom
 synchronize
 synergy

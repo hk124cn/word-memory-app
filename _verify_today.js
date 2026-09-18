@@ -1,0 +1,15 @@
+const fs=require('fs'),vm=require('vm');
+const src=fs.readFileSync('words.js','utf8');
+const ctx={};vm.createContext(ctx);
+vm.runInContext(src.replace(/^\s*(export|module\.exports)[\s\S]*$/m,''),ctx);
+const EN=ctx.EMBEDDED_EN,JA=ctx.EMBEDDED_JA;
+console.log('EN='+EN.length+' JA='+JA.length);
+const today=EN.filter(x=>x.date_added==='2026-09-18');
+console.log('TODAY='+today.length+' -> '+today.map(x=>x.word).join(', '));
+const all=EN.map(x=>x.word.toLowerCase());
+const dup=all.filter((w,i)=>all.indexOf(w)!==i);
+console.log('DUP='+(dup.length?[...new Set(dup)].join(','):'none'));
+const F=['word','phonetic','meaning','example','example_cn','tip','date_added','lang'];
+const bad=today.filter(w=>F.some(f=>!w[f]||typeof w[f]!=='string'||!w[f].trim())||w.lang!=='en');
+console.log('MISSING_FIELDS='+(bad.length?JSON.stringify(bad):'none'));
+console.log('JA_SAMPLE_OK='+(JA.length>0 && !!JA[0].word));
