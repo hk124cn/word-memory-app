@@ -4,7 +4,8 @@ const ctx={};vm.createContext(ctx);
 vm.runInContext(src.replace(/^\s*(export|module\.exports)[\s\S]*$/m,''),ctx);
 const EN=ctx.EMBEDDED_EN,JA=ctx.EMBEDDED_JA;
 console.log('EN='+EN.length+' JA='+JA.length);
-const today=EN.filter(x=>x.date_added==='2026-09-18');
+const DATE=new Date().toISOString().slice(0,10); // 每期自动取当天，勿硬编码
+const today=EN.filter(x=>x.date_added===DATE);
 console.log('TODAY='+today.length+' -> '+today.map(x=>x.word).join(', '));
 const all=EN.map(x=>x.word.toLowerCase());
 const dup=all.filter((w,i)=>all.indexOf(w)!==i);

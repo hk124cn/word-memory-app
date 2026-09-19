@@ -172,6 +172,7 @@ ensure
 envelope
 equipment
 escalate
+escalator
 essential
 estimate
 etiquette
@@ -245,6 +246,7 @@ leave
 legitimate
 leverage
 license
+locker
 logistics
 lucrative
 luggage
@@ -415,6 +417,7 @@ setback
 shift
 shipment
 shortcut
+shredder
 signature
 specific
 spontaneous
@@ -424,6 +427,7 @@ sprint
 stakeholder
 standup
 stationery
+stipend
 stipulate
 straightforward
 strategy
@@ -477,6 +481,7 @@ urgent
 utility
 vacancy
 vacation
+vaccine
 vendor
 venue
 verify
