@@ -140,6 +140,7 @@ demonstrate
 departure
 deposit
 destination
+detergent
 deteriorate
 detour
 device
@@ -172,6 +173,7 @@ enhance
 ensure
 envelope
 equipment
+errand
 escalate
 escalator
 essential
@@ -186,6 +188,7 @@ expire
 express
 facilitate
 facility
+faucet
 feasible
 feedback
 flexibility
@@ -290,6 +293,7 @@ optimize
 outage
 outcome
 outlet
+outsource
 overdue
 overlook
 overtime
@@ -474,6 +478,7 @@ transaction
 transfer
 transition
 transparent
+treadmill
 troubleshoot
 tuition
 turnover
