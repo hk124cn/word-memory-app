@@ -1,56 +1,56 @@
-// 每日英语单词追加脚本（2026-09-23 第 85 期）
+// 每日英语单词追加脚本（2026-09-25 第 86 期）
 const fs = require('fs');
 const FILE = 'words.js';
-const DATE = '2026-09-23';
+const DATE = '2026-09-25';
 
 const newWords = [
   {
-    word: "kettle",
-    phonetic: "/ˈketl/",
-    meaning: "水壶，烧水壶",
-    example: "Put the kettle on and we'll have some tea.",
-    example_cn: "把水壶烧上，我们喝点茶。",
-    tip: "英式生活的核心词——put the kettle on 字面是「把壶放上」，实际就是「烧壶水」，等于「咱们喝茶吧」。和 pot 区分：kettle 是烧水的壶，teapot 才是泡茶用的茶壶。美式多说 electric kettle。拼写双 t，念 /ˈketl/，第二个 e 不发音。",
+    word: "napkin",
+    phonetic: "/ˈnæpkɪn/",
+    meaning: "餐巾，餐巾纸",
+    example: "She wiped her mouth with a napkin and reached for her phone.",
+    example_cn: "她用餐巾擦了擦嘴，伸手去拿手机。",
+    tip: "餐桌必备词，注意和 tissue（抽纸、面巾纸）区分：napkin 是吃饭时摆在手边、铺在腿上的那块餐巾，tissue 是随手抽的纸。正式场合的规矩是铺在腿上，用完放在盘子左侧而不是揉成一团。英式、澳式有时说 serviette。词源是拉丁 mappa「布」。重音在前 /ˈnæp-/。",
     date_added: DATE,
     lang: "en"
   },
   {
-    word: "umbrella",
-    phonetic: "/ʌmˈbrelə/",
-    meaning: "雨伞；总括的，涵盖多方的",
-    example: "Take an umbrella — the forecast says it'll rain this afternoon.",
-    example_cn: "带把伞吧，预报说下午有雨。",
-    tip: "职场高频引申义：umbrella term（统称、总称）、umbrella organization（总机构、伞形组织）、under the umbrella of（在…的统一框架下）。词源是拉丁 umbra「阴影」，本义就是遮出阴影的东西。重音在中间 /ʌmˈbre-/，别念成「UM-brella」。",
+    word: "thermostat",
+    phonetic: "/ˈθɜːrməstæt/",
+    meaning: "恒温器，温度调节器",
+    example: "Turn the thermostat down to 20 degrees before you go to bed.",
+    example_cn: "睡前把恒温器调到 20 度。",
+    tip: "thermo-（热）+ stat（保持不变的装置）→ 让温度恒定的小盒子。口语里常省着说 turn the heat up/down，也可以用 the stat 代指。th 是咬舌音 /θ/，别念成 /s/；重音在前 /ˈθɜːr-/。相关：thermometer（温度计）、thermal（热的）。",
     date_added: DATE,
     lang: "en"
   },
   {
-    word: "whiteboard",
-    phonetic: "/ˈwaɪtbɔːrd/",
-    meaning: "白板",
-    example: "Let's write the main points on the whiteboard so everyone can see them.",
-    example_cn: "我们把要点写在白板上，让大家都看得见。",
-    tip: "white（白）+ board（板）。互联网公司里派生的 whiteboarding 指「一群人围着白板一起画方案、推设计」这种协作方式，面试里的 whiteboard interview 就是让你当场在白板上写代码/画架构。对照 blackboard（黑板）、noticeboard（布告栏）。重音在前 /ˈwaɪt-/。",
+    word: "cubicle",
+    phonetic: "/ˈkjuːbɪkl/",
+    meaning: "办公隔间；（更衣、淋浴用的）小隔间",
+    example: "He decorated his cubicle with photos and a small plant.",
+    example_cn: "他用照片和一盆小植物装饰自己的办公隔间。",
+    tip: "cube（立方体）的指小形式，本义就是「方方正正的小空间」。办公室里指用隔板隔开的工位，略带自嘲色彩：cubicle farm（格子间农场）、cubicle life。也指更衣室、淋浴间的小隔间或图书馆的自习小间。重音在前 /ˈkjuː-/，词尾 -cle 只发 /kl/。",
     date_added: DATE,
     lang: "en"
   },
   {
-    word: "prototype",
-    phonetic: "/ˈproʊtətaɪp/",
-    meaning: "原型，样机（初版试制品）",
-    example: "We showed the prototype to the client and got useful feedback.",
-    example_cn: "我们把原型拿给客户看，拿到了很有用的反馈。",
-    tip: "proto-（最初、第一）+ type（类型）→ 第一个样本。工程和产品语境里指「先做出来试用、还没定型的早期版本」，比 sample（样品）更强调未定型。常搭配 build / test / refine a prototype。相关词：MVP（最小可行产品）、pilot（试点）。重音在前 /ˈproʊ-/。",
+    word: "layout",
+    phonetic: "/ˈleɪaʊt/",
+    meaning: "布局，布置；版面设计，排版",
+    example: "The new office layout gives everyone more natural light.",
+    example_cn: "新的办公室布局让每个人都有更多自然光。",
+    tip: "由动词短语 lay out（铺开、摆放）名词化而来，连写成一个词后重音也前移：lay OUT → LAYout。三大高频场景：房间/办公室布局、网页与杂志排版（page layout）、键盘布局（keyboard layout）。做方案或 PPT 时常说 the layout feels cramped（排版太挤）。",
     date_added: DATE,
     lang: "en"
   },
   {
-    word: "cushion",
-    phonetic: "/ˈkʊʃn/",
-    meaning: "靠垫，坐垫；缓冲，减轻（冲击）",
-    example: "The sofa comes with two cushions in a matching color.",
-    example_cn: "这张沙发配两个同色靠垫。",
-    tip: "名词是「垫子」，动词引申为「缓冲」——cushion the blow（减轻打击）、cushion the impact（缓冲影响）。理财和职场里说 a cash cushion / a financial cushion 就是「应急储备金」。词源是拉丁 coxa（臀部、大腿），本来就是垫屁股的东西。念 /ˈkʊʃn/，两个音节，-ion 只发 /ʃn/。",
+    word: "rebate",
+    phonetic: "/ˈriːbeɪt/",
+    meaning: "返款，折扣返还；退还款",
+    example: "The store offers a 10% rebate if you pay in cash.",
+    example_cn: "这家店付现金可返 10%。",
+    tip: "re-（回）+ bate（打、削减）→ 把钱「打回来」。和 discount 的关键区别：discount 是当场少付，rebate 是先付全款、之后才返还（往往要填表、寄凭证或等入账）。常见搭配 tax rebate（退税）、mail-in rebate（寄回凭证返现）、a rebate on…。重音在前 /ˈriː-/，别念成 re-BATE。",
     date_added: DATE,
     lang: "en"
   }

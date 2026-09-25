@@ -121,6 +121,7 @@ coverage
 criteria
 criterion
 crucial
+cubicle
 cultivate
 currency
 cushion
@@ -249,6 +250,7 @@ kettle
 landlord
 laundry
 layoff
+layout
 layover
 lease
 leave
@@ -278,6 +280,7 @@ momentum
 morale
 mortgage
 motivate
+napkin
 navigate
 negotiate
 negotiation
@@ -362,6 +365,7 @@ queue
 quota
 quotation
 rapport
+rebate
 recap
 receipt
 receptionist
@@ -473,6 +477,7 @@ tedious
 tenant
 tentative
 terminate
+thermostat
 thorough
 threshold
 thrive
