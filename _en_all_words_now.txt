@@ -73,6 +73,7 @@ candor
 capacity
 catalyze
 cater
+caveat
 certificate
 charge
 charger
@@ -182,6 +183,7 @@ envelope
 equipment
 errand
 escalate
+escalation
 escalator
 essential
 estimate
@@ -219,6 +221,7 @@ guarantee
 handbook
 handle
 handover
+headcount
 hire
 hospitality
 huddle
@@ -442,6 +445,7 @@ shortcut
 shredder
 signature
 specific
+sponge
 spontaneous
 spot
 spreadsheet
@@ -489,6 +493,7 @@ thrive
 time-consuming
 tip
 toddler
+toothbrush
 tracking
 traffic
 transaction
