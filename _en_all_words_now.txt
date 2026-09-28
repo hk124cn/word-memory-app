@@ -15,6 +15,7 @@ advocate
 agenda
 ahead
 align
+alignment
 allocate
 allowance
 ambiguity
@@ -49,12 +50,14 @@ awkward
 backlog
 backup
 baggage
+balcony
 bandwidth
 bargain
 battery
 benchmark
 benefit
 bill
+blender
 bonus
 bottleneck
 brainstorm
@@ -387,6 +390,7 @@ reconcile
 recruit
 rectify
 recurring
+redundancy
 redundant
 referral
 refine
@@ -488,6 +492,7 @@ teamwork
 tedious
 tenant
 tentative
+tenure
 terminate
 thermometer
 thermostat
