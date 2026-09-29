@@ -43,6 +43,7 @@ attach
 attachment
 attend
 attendance
+attrition
 audit
 autonomy
 available
@@ -70,6 +71,7 @@ cadence
 calendar
 caliber
 calibrate
+calibration
 cancel
 candidate
 candor
@@ -142,6 +144,7 @@ deduction
 defer
 delay
 delegate
+delegation
 deliberate
 deliver
 deliverable
@@ -287,6 +290,7 @@ milestone
 minutes
 mitigate
 momentum
+mop
 morale
 mortgage
 motivate
@@ -378,6 +382,7 @@ queue
 quota
 quotation
 rapport
+razor
 rebate
 recap
 receipt
