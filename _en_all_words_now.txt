@@ -30,6 +30,7 @@ appreciate
 approach
 approve
 apron
+arbitration
 arrange
 articulate
 assemble
@@ -169,6 +170,7 @@ distinguish
 diverse
 dividend
 download
+downtime
 draft
 effective
 efficiency
@@ -228,6 +230,7 @@ handbook
 handle
 handover
 headcount
+hedge
 hire
 hospitality
 huddle
@@ -260,6 +263,7 @@ itinerary
 janitor
 justify
 kettle
+ladle
 landlord
 laundry
 layoff
@@ -504,6 +508,7 @@ thermostat
 thorough
 threshold
 thrive
+throughput
 time-consuming
 tip
 toddler
