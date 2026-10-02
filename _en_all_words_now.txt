@@ -6,6 +6,7 @@ accountable
 accumulate
 acknowledge
 acquaint
+acquisition
 actionable
 adaptable
 address
@@ -53,6 +54,7 @@ backlog
 backup
 baggage
 balcony
+bandage
 bandwidth
 bargain
 battery
@@ -455,6 +457,7 @@ scrutiny
 seamless
 seminar
 setback
+shampoo
 shift
 shipment
 shortcut
@@ -477,12 +480,14 @@ streamline
 submit
 subscribe
 subscription
+subsidy
 substantial
 substantiate
 substitute
 succinct
 summary
 sunscreen
+supervision
 supervisor
 sustainable
 swipe
