@@ -68,6 +68,7 @@ brainstorm
 brief
 briefing
 brochure
+broom
 budget
 burnout
 cadence
@@ -187,6 +188,7 @@ emphasize
 empower
 endeavor
 endorse
+endorsement
 enhance
 ensure
 envelope
@@ -275,6 +277,7 @@ lease
 leave
 legitimate
 leverage
+liability
 license
 locker
 logistics
@@ -290,6 +293,7 @@ memo
 mentor
 mentorship
 merger
+merit
 meticulous
 mileage
 milestone
@@ -448,6 +452,7 @@ roster
 routine
 salary
 scan
+scarf
 schedule
 scope
 screening

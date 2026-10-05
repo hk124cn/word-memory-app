@@ -1,56 +1,56 @@
-// 每日英语单词追加脚本（2026-10-04 第 94 期）
+// 每日英语单词追加脚本（2026-10-05 第 95 期）
 const fs = require('fs');
 const FILE = 'words.js';
-const DATE = '2026-10-04';
+const DATE = '2026-10-05';
 
 const newWords = [
   {
-    word: "merit",
-    phonetic: "/ˈmerɪt/",
-    meaning: "优点，长处，价值；功绩；值得，应得",
-    example: "We should judge the proposal on its own merits, not on who submitted it.",
-    example_cn: "我们应当就提案本身的价值来评判它，而不是看是谁提交的。",
-    tip: "merit 本义是「值得、应得」（同 meritocracy 精英治国），引申为「值得称赞之处」即「优点」。职场高频搭配：on its (own) merits（就其本身价值而言）、merit pay / merit raise（绩效工资/绩效加薪）、merit-based（以能力/业绩为依据的，如 merit-based promotion 择优晋升）。别和 virtue 混：merit 偏「值得肯定的地方」（可量化、可评判），virtue 偏「品德、美德」（道德层面）。作动词时很正式：The case merits further attention.（此事值得进一步关注。）重音在首音节 MER-。",
+    word: "margin",
+    phonetic: "/ˈmɑːrdʒɪn/",
+    meaning: "页边空白；边缘，界限；（利润）毛利，利润率；余地，差距",
+    example: "The store operates on a very thin profit margin, so every sale counts.",
+    example_cn: "这家店的利润率非常薄，所以每一笔销售都至关重要。",
+    tip: "margin 本义是「页边留白」，引申出「边缘、余地」。三个高频场景：① 财务——profit margin 利润率（gross margin 毛利率、net margin 净利率），thin/slim margin 薄利，a wide margin 高利润；② 差距——win by a narrow margin（以微弱优势获胜，体育/选举常见）；③ 余地——margin of error 误差范围、margin for error 犯错空间。注意与 markup（加价率）区分：margin 分母是售价，markup 分母是成本。重音在首音节 MAR-，ar 读 /ɑːr/。",
     date_added: DATE,
     lang: "en"
   },
   {
-    word: "liability",
-    phonetic: "/ˌlaɪəˈbɪləti/",
-    meaning: "责任，义务（法律上的）；负债，债务；累赘，麻烦的人或事",
-    example: "The company accepted full liability for the damage caused by the leak.",
-    example_cn: "公司对泄漏造成的损害承担全部责任。",
-    tip: "li（捆绑，同 bind、ligature）+ -ability → 「被绑住的义务」，所以是「责任」。三层意思要分清：① 法律责任（legal liability、limited liability company 有限责任公司）；② 财务上的「负债」（与 asset 资产相对，balance sheet 资产负债表的右栏）；③ 口语里指「拖后腿的人或事」：He's a liability to the team.（他是团队的累赘。）形容词 liable 也常用：be liable for（对…负责）、be liable to do（容易/倾向于…）。复数 liabilities，注意 y 变 ies。重音在第三音节 -BIL-。",
+    word: "sourcing",
+    phonetic: "/ˈsɔːrsɪŋ/",
+    meaning: "采购，寻源（寻找并确定供应商、货源的过程）",
+    example: "The company is shifting its sourcing to local suppliers to cut lead times.",
+    example_cn: "公司正把采购转向本地供应商，以缩短交货周期。",
+    tip: "sourcing 来自 source（源头），字面就是「找源头」，指在采购链条中「寻源、定供应商」这一步——比 buying（单纯买）更靠前、更战略。常见搭配：global sourcing 全球采购、strategic sourcing 战略寻源、dual sourcing 双源采购（避免单一供应商断供风险）、outsourcing 外包（注意 out- 前缀是「向外」的意思，别搞混）。相关岗位：sourcing manager 寻源/采购经理。动词 source：We source materials from three countries. 注意拼写，读音 /ˈsɔːrsɪŋ/，重音在首音节。",
     date_added: DATE,
     lang: "en"
   },
   {
-    word: "endorsement",
-    phonetic: "/ɪnˈdɔːrsmənt/",
-    meaning: "认可，支持，背书；（名人的）代言，推荐；（文件上的）签名背书",
-    example: "The new policy won the endorsement of several industry leaders.",
-    example_cn: "这项新政策赢得了多位行业领袖的支持。",
-    tip: "en（使…进入）+ dors（背部，同 dorsal 背部的）+ -ment → 原指「在票据背面签字」，引申为「站台背书、公开支持」。三个场景记住它：① 职场/政界——win/earn an endorsement（赢得支持）、official endorsement（官方认可）；② 商业——celebrity endorsement（明星代言）、product endorsement（产品代言）；③ 金融——endorse a check（在支票背面签名）。动词 endorse 更常见：I fully endorse this plan.（我完全支持这个计划。）重音在第二音节 -DORSE-，读 /ɪnˈdɔːrsmənt/。",
+    word: "succession",
+    phonetic: "/səkˈseʃn/",
+    meaning: "继承，继任；（连续的）一系列，接连发生",
+    example: "The board has a clear succession plan for the CEO position.",
+    example_cn: "董事会对 CEO 职位有明确的继任计划。",
+    tip: "succession = suc（在下面）+ cess（走）+ -ion，字面「跟在后面走」，所以是「接替、连续」。职场最常用 succession plan（继任计划）——公司提前培养接班人，避免关键岗位断档。固定搭配：in succession（接连地，= one after another）：He won three games in succession. 一组形近词分清：success（成功）、succession（继承/连续）、successive（连续的，形容词）、successor（继任者）——注意 successor 是「继任者」，不是「成功者」（成功者是 a success / a successful person）。重音在第二音节 -CESS-。",
     date_added: DATE,
     lang: "en"
   },
   {
-    word: "scarf",
-    phonetic: "/skɑːrf/",
-    meaning: "围巾，披巾，头巾；围（围巾等）",
-    example: "She wrapped a wool scarf around her neck before going out in the cold.",
-    example_cn: "出门前，她在冷天里把一条羊毛围巾围在脖子上。",
-    tip: "冬天穿戴一组记牢：scarf 围巾（长条形，绕脖子）、shawl 披肩（大而宽，搭肩上）、gloves 手套、beanie 毛线帽、mittens 连指手套。动词用法很形象：scarf down 是口语「狼吞虎咽地吃」（She scarfed down her lunch.）——像围巾一样把食物一卷而空。复数特殊：scarves（f 变 ves，同 leaf→leaves）。发音注意：ar 读 /ɑːr/，是 /skɑːrf/ 不是 /skærf/。",
+    word: "porch",
+    phonetic: "/pɔːrtʃ/",
+    meaning: "门廊，走廊（房屋入口处带顶棚的平台）",
+    example: "We sat on the porch and watched the sunset.",
+    example_cn: "我们坐在门廊上看着日落。",
+    tip: "房屋周边一组记牢：porch 门廊（入口带顶的平台，美式常见）、balcony 阳台（楼上外挑）、terrace 露台（大而平，可种花）、patio 庭院平台（地面层，铺砖）、veranda 游廊（大而长的廊）。固定搭配：front porch 前廊、porch light 门廊灯（晚上留着照明+安全）。美式文化里 porch 是邻里闲聊的地方，所以有 sit on the porch（坐在门廊上）这种画面感表达。读音 /pɔːrtʃ/，or 读 /ɔːr/，与 torch（火把）同韵。",
     date_added: DATE,
     lang: "en"
   },
   {
-    word: "broom",
-    phonetic: "/bruːm/",
-    meaning: "扫帚；金雀花（一种黄色花的灌木）",
-    example: "He grabbed a broom and swept the leaves off the porch.",
-    example_cn: "他抓起一把扫帚，把门廊上的落叶扫掉。",
-    tip: "打扫工具一组记牢：broom 扫帚（扫地）、mop 拖把（拖地）、dustpan 簸箕（配 broom 用，a broom and dustpan 一套扫具）、vacuum cleaner 吸尘器、brush 刷子。固定搭配：a new broom sweeps clean（新官上任三把火，英谚，来自「新扫帚扫得干净」）。动词就是「扫」：broom the floor。注意 -oo 是长音 /uː/，读 /bruːm/，与 room 同韵。别和 bloom（开花）混——只差一个字母。",
+    word: "utensil",
+    phonetic: "/juːˈtensl/",
+    meaning: "（厨房）用具，器皿，工具",
+    example: "Wash all the kitchen utensils before you start cooking.",
+    example_cn: "开始做饭前，把所有厨房用具都洗一遍。",
+    tip: "utensil 源自拉丁语 uti（使用），和 use、utility 同源，指「干活用的器具」。最常见是 kitchen utensils（厨房用具：锅铲、汤勺、打蛋器等小工具）——注意它不是 cutlery（刀叉勺餐具，摆桌上吃的），也不是 appliance（家电，如冰箱、微波炉）。烹饪场景搭配：cooking utensils 炊具、utensil holder 厨具收纳筒。也可泛指任何工具：gardening utensils 园艺工具、writing utensils 书写工具。重音在第二音节 -TEN-，读 /juːˈtensl/。",
     date_added: DATE,
     lang: "en"
   }
