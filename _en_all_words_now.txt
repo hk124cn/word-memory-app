@@ -61,6 +61,7 @@ battery
 benchmark
 benefit
 bill
+blanket
 blender
 bonus
 bottleneck
@@ -96,6 +97,7 @@ client
 cogent
 cohesive
 collaborate
+collateral
 colleague
 commission
 commitment
@@ -131,12 +133,14 @@ coupon
 courier
 courtesy
 coverage
+credential
 criteria
 criterion
 crucial
 cubicle
 cultivate
 currency
+curtain
 cushion
 customer
 deadline
@@ -233,6 +237,7 @@ guarantee
 handbook
 handle
 handover
+hanger
 headcount
 hedge
 hire
@@ -278,6 +283,7 @@ leave
 legitimate
 leverage
 liability
+liaison
 license
 locker
 logistics
@@ -327,6 +333,7 @@ outage
 outcome
 outlet
 outsource
+outsourcing
 overdue
 overhead
 overlook
@@ -347,6 +354,7 @@ permission
 permit
 perspective
 pharmacy
+pillow
 pipeline
 pivot
 pivotal
@@ -464,6 +472,7 @@ scrutiny
 seamless
 seminar
 setback
+severance
 shampoo
 shift
 shipment
@@ -527,6 +536,7 @@ time-consuming
 tip
 toddler
 toothbrush
+towel
 tracking
 traffic
 transaction
