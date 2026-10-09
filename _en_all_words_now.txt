@@ -86,6 +86,7 @@ catalyze
 cater
 caveat
 certificate
+certification
 charge
 charger
 checkout
@@ -178,6 +179,7 @@ disrupt
 distinguish
 diverse
 dividend
+doorknob
 download
 downtime
 draft
@@ -218,6 +220,7 @@ facility
 faucet
 feasible
 feedback
+flashlight
 flexibility
 flexible
 fluctuate
@@ -435,6 +438,7 @@ reluctant
 remind
 reminder
 reminisce
+remittance
 remote
 renew
 renovation
@@ -484,6 +488,7 @@ shortcut
 shredder
 signature
 sourcing
+specialize
 specific
 sponge
 spontaneous
