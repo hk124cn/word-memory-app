@@ -13,6 +13,7 @@ address
 adept
 adequate
 advocate
+affiliate
 agenda
 ahead
 align
@@ -153,6 +154,7 @@ dedication
 deductible
 deduction
 defer
+deficit
 delay
 delegate
 delegation
@@ -183,6 +185,7 @@ doorknob
 download
 downtime
 draft
+drain
 effective
 efficiency
 efficient
@@ -487,6 +490,7 @@ shipment
 shortcut
 shredder
 signature
+slipper
 sourcing
 specialize
 specific
@@ -516,6 +520,7 @@ summary
 sunscreen
 supervision
 supervisor
+surplus
 sustainable
 swipe
 switch
