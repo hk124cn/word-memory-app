@@ -59,6 +59,7 @@ bandage
 bandwidth
 bargain
 battery
+beanie
 benchmark
 benefit
 bill
@@ -145,6 +146,7 @@ cultivate
 currency
 curtain
 cushion
+custodian
 customer
 cutlery
 deadline
@@ -230,6 +232,7 @@ fluctuate
 follow-up
 forecast
 foreseeable
+franchise
 freelance
 fridge
 frugal
@@ -297,6 +300,7 @@ liaison
 license
 locker
 logistics
+lotion
 lucrative
 luggage
 maintain
@@ -339,6 +343,7 @@ onboard
 onboarding
 onsite
 optimize
+orchestrate
 outage
 outcome
 outlet
