@@ -102,6 +102,7 @@ clarity
 clause
 clearance
 client
+coaster
 cogent
 cohesive
 colander
@@ -253,6 +254,7 @@ genuinely
 governance
 grasp
 grateful
+grater
 gratitude
 grievance
 grocery
@@ -438,6 +440,7 @@ quotation
 rapport
 razor
 rebate
+rebuttal
 recap
 receipt
 receptionist
@@ -527,6 +530,7 @@ sprint
 stakeholder
 standup
 stationery
+stint
 stipend
 stipulate
 straightforward
@@ -536,6 +540,7 @@ submit
 subscribe
 subscription
 subsidiary
+subsidize
 subsidy
 substantial
 substantiate
