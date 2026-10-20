@@ -53,6 +53,7 @@ available
 awkward
 backlog
 backup
+badge
 baggage
 balcony
 bandage
@@ -198,6 +199,7 @@ download
 downtime
 draft
 drain
+drawer
 effective
 efficiency
 efficient
@@ -290,6 +292,7 @@ installment
 insurance
 integrate
 integrity
+intern
 internship
 interview
 inventory
@@ -361,6 +364,7 @@ onboarding
 onsite
 optimize
 orchestrate
+orientation
 outage
 outcome
 outlet
@@ -437,6 +441,7 @@ queue
 quorum
 quota
 quotation
+raise
 rapport
 razor
 rebate
@@ -490,6 +495,7 @@ resume
 retain
 retention
 retire
+retrospective
 return
 revenue
 review
@@ -519,7 +525,9 @@ shortcut
 shredder
 signature
 slipper
+sneakers
 sourcing
+spatula
 specialize
 specific
 sponge
@@ -535,6 +543,7 @@ stipend
 stipulate
 straightforward
 strategy
+straw
 streamline
 submit
 subscribe
@@ -579,6 +588,7 @@ threshold
 thrive
 throughput
 time-consuming
+timesheet
 tip
 toaster
 toddler
