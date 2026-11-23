@@ -1,5 +1,5 @@
 // Service Worker for 每日外语 PWA
-const CACHE_NAME = 'word-memory-v5';
+const CACHE_NAME = 'word-memory-v6';
 const ASSETS_TO_CACHE = [
   '/index.html',
   '/words.js',

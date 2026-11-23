@@ -510,6 +510,124 @@ body {
   border: 1px solid var(--border);
   white-space: nowrap;
 }
+
+/* ===== 小学分类：点字母拼词 ===== */
+.letter-slots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+  min-height: 50px;
+  margin: 12px 0 16px;
+}
+.letter-slot {
+  min-width: 36px;
+  height: 46px;
+  padding: 0 4px;
+  border-bottom: 3px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--primary);
+  transition: all 0.15s;
+}
+.letter-slot.filled {
+  background: var(--primary-light);
+  border-radius: 8px;
+  border-bottom-color: var(--primary);
+  cursor: pointer;
+}
+.letter-slot.fixed { border-bottom-color: transparent; color: var(--text3); }
+.letter-pool {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.letter-tile {
+  width: 46px;
+  height: 50px;
+  border-radius: 11px;
+  border: 2px solid var(--border);
+  background: var(--surface);
+  font-size: 23px;
+  font-weight: 700;
+  color: var(--text);
+  cursor: pointer;
+  transition: transform 0.12s, opacity 0.12s;
+  font-family: inherit;
+  box-shadow: 0 2px 0 var(--border);
+}
+.letter-tile:active { transform: scale(0.9); }
+.letter-tile.used { opacity: 0.22; pointer-events: none; transform: scale(0.88); }
+.letter-tile.pop { animation: tile-pop 0.26s ease; }
+@keyframes tile-pop {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.16); }
+  100% { transform: scale(1); }
+}
+.letter-actions { display: flex; gap: 8px; }
+.letter-act {
+  flex: 1;
+  padding: 12px 6px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--surface2);
+  color: var(--text2);
+  font-size: 14px;
+  cursor: pointer;
+  font-family: inherit;
+}
+.letter-act.primary {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+  font-weight: 500;
+}
+
+/* ===== 撒花 ===== */
+.confetti-box {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 999;
+  overflow: hidden;
+}
+.confetti-box i {
+  position: absolute;
+  top: -16px;
+  width: 9px;
+  height: 14px;
+  border-radius: 2px;
+  animation: confetti-fall linear forwards;
+}
+@keyframes confetti-fall {
+  0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(105vh) rotate(540deg); opacity: 0.85; }
+}
+.combo-pop {
+  position: fixed;
+  left: 50%;
+  top: 42%;
+  transform: translate(-50%, -50%) scale(0.6);
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--primary);
+  text-shadow: 0 2px 12px rgba(0,0,0,0.12);
+  pointer-events: none;
+  z-index: 998;
+  opacity: 0;
+  animation: combo-in 1s ease forwards;
+}
+@keyframes combo-in {
+  0% { opacity: 0; transform: translate(-50%, -50%) scale(0.6); }
+  30% { opacity: 1; transform: translate(-50%, -50%) scale(1.1); }
+  70% { opacity: 1; transform: translate(-50%, -60%) scale(1); }
+  100% { opacity: 0; transform: translate(-50%, -85%) scale(0.95); }
+}
 .word-sound-btn {
   width: 34px; height: 34px;
   border: 1px solid var(--border);
@@ -703,7 +821,7 @@ body {
 
   <div class="card">
     <div class="section-title">快速开始</div>
-    <div style="display:flex;gap:10px;flex-wrap:wrap">
+    <div id="quickStart" style="display:flex;gap:10px;flex-wrap:wrap">
       <button class="task-action" style="flex:1" onclick="startMode('flash')">卡片翻转</button>
       <button class="task-action" style="flex:1" onclick="startMode('quiz')">选择题</button>
       <button class="task-action" style="flex:1" onclick="startMode('spell')">拼写练习</button>
@@ -786,6 +904,15 @@ body {
     <span class="hidden" id="spellExampleFull"></span>
     <div class="spell-hint" id="spellHint">首字母：-</div>
     <input class="spell-input" id="spellInput" type="text" placeholder="输入单词..." autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false">
+    <!-- 小学分类：点字母拼词（比打字简单，适合一二年级） -->
+    <div id="letterGame" class="hidden">
+      <div class="letter-slots" id="letterSlots"></div>
+      <div class="letter-pool" id="letterPool"></div>
+      <div class="letter-actions">
+        <button class="letter-act" onclick="letterClear()">🗑 重来</button>
+        <button class="letter-act primary" id="letterCheckBtn" onclick="checkLetterGame()">✓ 检查</button>
+      </div>
+    </div>
     <div id="spellFeedback" class="feedback-text hidden"></div>
     <button class="submit-btn" id="spellSubmitBtn" onclick="checkSpell()">确认</button>
     <button class="submit-btn hidden" id="spellNextBtn" style="margin-top:10px;background:var(--surface2);color:var(--text)" onclick="nextCard()">下一个 →</button>
@@ -1281,7 +1408,8 @@ function currentWord() {
 function nextCard() {
   queueIndex++;
   if (queueIndex >= learnQueue.length) {
-    showDone('本轮完成！', `共完成 ${learnQueue.length} 个单词`);
+    if (currentLang === 'kids') showDone('今天的 3 个词学完啦 🎉', '真棒！明天再来学 3 个新词');
+    else showDone('本轮完成！', `共完成 ${learnQueue.length} 个单词`);
     return;
   }
   renderLearnCard();
@@ -1303,6 +1431,14 @@ function showDone(title, sub) {
   document.getElementById('modeDone').classList.remove('hidden');
   document.getElementById('doneTitle').textContent = title;
   document.getElementById('doneSub').textContent = sub;
+  // 完成页隐藏上一个/下一个，聚焦庆祝
+  const nav = document.querySelector('.card-nav');
+  if (nav) nav.classList.add('hidden');
+  // 小学分类：通关撒花 + 小旋律
+  if (currentLang === 'kids') {
+    confetti(46);
+    sfx('win');
+  }
   // 更新连续天数
   updateStreak();
   renderHome();
@@ -1312,6 +1448,8 @@ function showDone(title, sub) {
 function renderLearnCard() {
   ['modeFlash','modeQuiz','modeSpell','modeFill','modeDone'].forEach(id =>
     document.getElementById(id).classList.add('hidden'));
+  const nav = document.querySelector('.card-nav');
+  if (nav) nav.classList.remove('hidden');
   updateNav();
   const w = learnQueue[queueIndex];
   if (!w) return;
@@ -1354,6 +1492,7 @@ function recallAnswer(quality) {
   const w = learnQueue[queueIndex];
   applyReview(w.word, quality >= 3);
   recordStats(quality >= 3);
+  feedbackFx(quality >= 3);
   nextCard();
 }
 
@@ -1400,6 +1539,7 @@ function checkQuiz(btn, chosen, correct, wordStr) {
   document.getElementById('quizNextBtn').classList.remove('hidden');
   applyReview(wordStr, isCorrect);
   recordStats(isCorrect);
+  feedbackFx(isCorrect);
   if (isCorrect) speakWord(wordStr);
 }
 
@@ -1417,15 +1557,122 @@ function renderSpell(w) {
   } else {
     document.getElementById('spellHint').textContent = `首字母：${w.word[0].toUpperCase()}，共 ${w.word.length} 个字母`;
   }
-  const input = document.getElementById('spellInput');
-  input.value = '';
-  input.className = 'spell-input';
   document.getElementById('spellFeedback').classList.add('hidden');
   document.getElementById('spellSubmitBtn').classList.remove('hidden');
   document.getElementById('spellNextBtn').classList.add('hidden');
+
+  // 小学分类：换成点字母拼词，不用打字
+  if (currentLang === 'kids') {
+    document.getElementById('spellInput').classList.add('hidden');
+    document.getElementById('spellSubmitBtn').classList.add('hidden');
+    setupLetterGame(w);
+    return;
+  }
+  document.getElementById('spellInput').classList.remove('hidden');
+  document.getElementById('letterGame').classList.add('hidden');
+
+  const input = document.getElementById('spellInput');
+  input.value = '';
+  input.className = 'spell-input';
   setTimeout(() => input.focus(), 100);
 
   input.onkeydown = (e) => { if (e.key === 'Enter') checkSpell(); };
+}
+
+// ========== 点字母拼词（小学分类） ==========
+let letterGame = null;
+
+function setupLetterGame(w) {
+  document.getElementById('letterGame').classList.remove('hidden');
+  document.getElementById('letterCheckBtn').classList.remove('hidden');
+  const chars = w.word.split('');
+  const pool = chars
+    .filter(c => /[a-zA-Z]/.test(c))
+    .map((c, i) => ({ c: c.toLowerCase(), used: false, id: i }))
+    .sort(() => Math.random() - 0.5);
+  letterGame = {
+    word: w.word,
+    slots: chars.map(c => ({ ch: c, fixed: !/[a-zA-Z]/.test(c), fill: '' })),
+    pool,
+    locked: false
+  };
+  drawLetterGame();
+}
+
+function drawLetterGame() {
+  const g = letterGame;
+  if (!g) return;
+  document.getElementById('letterSlots').innerHTML = g.slots.map((s, i) => {
+    if (s.fixed) return `<div class="letter-slot fixed">${s.ch === ' ' ? '' : s.ch}</div>`;
+    return `<div class="letter-slot ${s.fill ? 'filled' : ''}" onclick="letterSlotClick(${i})">${s.fill || ''}</div>`;
+  }).join('');
+  document.getElementById('letterPool').innerHTML = g.pool.map((t, i) =>
+    `<button class="letter-tile ${t.used ? 'used' : ''}" onclick="letterTileClick(${i})">${t.c}</button>`
+  ).join('');
+}
+
+function letterTileClick(i) {
+  const g = letterGame;
+  if (!g || g.locked) return;
+  const t = g.pool[i];
+  if (!t || t.used) return;
+  const slot = g.slots.find(s => !s.fixed && !s.fill);
+  if (!slot) return;
+  slot.fill = t.c;
+  t.used = true;
+  sfx('tap');
+  drawLetterGame();
+}
+
+function letterSlotClick(i) {
+  const g = letterGame;
+  if (!g || g.locked) return;
+  const s = g.slots[i];
+  if (!s || s.fixed || !s.fill) return;
+  const t = g.pool.find(x => x.used && x.c === s.fill);
+  if (t) t.used = false;
+  s.fill = '';
+  drawLetterGame();
+}
+
+function letterClear() {
+  const g = letterGame;
+  if (!g || g.locked) return;
+  g.slots.forEach(s => { if (!s.fixed) s.fill = ''; });
+  g.pool.forEach(t => { t.used = false; });
+  drawLetterGame();
+}
+
+function checkLetterGame() {
+  const g = letterGame;
+  if (!g || g.locked) return;
+  const w = learnQueue[queueIndex];
+  const answer = g.slots.map(s => s.fixed ? s.ch : s.fill).join('');
+  const isCorrect = answer.toLowerCase() === g.word.toLowerCase();
+  const fb = document.getElementById('spellFeedback');
+
+  if (isCorrect) {
+    g.locked = true;
+    fb.textContent = `🎉 拼对了！${w.word}`;
+    fb.className = 'feedback-text ok';
+    fb.classList.remove('hidden');
+    document.getElementById('letterCheckBtn').classList.add('hidden');
+    document.getElementById('spellNextBtn').classList.remove('hidden');
+    confetti(18);
+    speakWord(w.word);
+  } else {
+    fb.textContent = `再想想～正确答案：${w.word}`;
+    fb.className = 'feedback-text no';
+    fb.classList.remove('hidden');
+    // 拼错不扣分，让孩子重来一次
+    setTimeout(() => {
+      letterClear();
+      document.getElementById('spellFeedback').classList.add('hidden');
+    }, 1400);
+  }
+  applyReview(w.word, isCorrect);
+  recordStats(isCorrect);
+  feedbackFx(isCorrect);
 }
 
 function checkSpell() {
@@ -1444,6 +1691,7 @@ function checkSpell() {
   document.getElementById('spellNextBtn').classList.remove('hidden');
   applyReview(w.word, isCorrect);
   recordStats(isCorrect);
+  feedbackFx(isCorrect);
   if (isCorrect) speakWord(w.word);
 }
 
@@ -1487,6 +1735,7 @@ function checkFill(btn, chosen, correct, wordStr) {
   document.getElementById('fillNextBtn').classList.remove('hidden');
   applyReview(wordStr, isCorrect);
   recordStats(isCorrect);
+  feedbackFx(isCorrect);
   if (isCorrect) speakWord(wordStr);
 }
 
@@ -1791,6 +2040,74 @@ function loadAddedWords() {
   } catch(e) {}
 }
 
+// ========== 小学分类：音效 / 撒花 / 连击 ==========
+let _ac = null;
+let comboCount = 0;
+
+function sfx(type) {
+  if (currentLang !== 'kids') return;
+  try {
+    _ac = _ac || new (window.AudioContext || window.webkitAudioContext)();
+    if (_ac.state === 'suspended') _ac.resume();
+    const now = _ac.currentTime;
+    const seq = type === 'ok' ? [[523.25, 0], [659.25, 0.09], [783.99, 0.18]]
+      : type === 'no' ? [[196, 0], [155.56, 0.13]]
+      : type === 'win' ? [[523.25, 0], [659.25, 0.12], [783.99, 0.24], [1046.5, 0.36]]
+      : [[880, 0]];
+    seq.forEach(([f, t]) => {
+      const o = _ac.createOscillator();
+      const g = _ac.createGain();
+      o.type = type === 'no' ? 'triangle' : 'sine';
+      o.frequency.value = f;
+      g.gain.setValueAtTime(0.0001, now + t);
+      g.gain.exponentialRampToValueAtTime(type === 'tap' ? 0.07 : 0.16, now + t + 0.02);
+      g.gain.exponentialRampToValueAtTime(0.0001, now + t + 0.26);
+      o.connect(g);
+      g.connect(_ac.destination);
+      o.start(now + t);
+      o.stop(now + t + 0.3);
+    });
+  } catch (e) {}
+}
+
+function confetti(n) {
+  n = n || 30;
+  const colors = ['#f87171', '#fbbf24', '#34d399', '#60a5fa', '#a78bfa', '#f472b6'];
+  const box = document.createElement('div');
+  box.className = 'confetti-box';
+  for (let i = 0; i < n; i++) {
+    const p = document.createElement('i');
+    p.style.left = Math.random() * 100 + '%';
+    p.style.background = colors[i % colors.length];
+    p.style.animationDelay = (Math.random() * 0.35) + 's';
+    p.style.animationDuration = (1.1 + Math.random() * 0.7) + 's';
+    box.appendChild(p);
+  }
+  document.body.appendChild(box);
+  setTimeout(() => box.remove(), 2400);
+}
+
+function comboPop(text) {
+  const el = document.createElement('div');
+  el.className = 'combo-pop';
+  el.textContent = text;
+  document.body.appendChild(el);
+  setTimeout(() => el.remove(), 1100);
+}
+
+// 答题后的统一反馈：音效 + 连击
+function feedbackFx(isCorrect) {
+  if (currentLang !== 'kids') return;
+  if (isCorrect) {
+    comboCount++;
+    sfx('ok');
+    if (comboCount >= 2) comboPop(`连对 ${comboCount} 个！🔥`);
+  } else {
+    comboCount = 0;
+    sfx('no');
+  }
+}
+
 // Toast 提示
 function showToast(msg) {
   let t = document.getElementById('toastMsg');
@@ -1871,6 +2188,12 @@ function applyLangUI(lang) {
   document.getElementById('langKids').classList.toggle('active', lang === 'kids');
   const titles = { en: '每日英语', ja: '每日日语', kids: '小学单词' };
   document.getElementById('navbarTitle').textContent = '📖 ' + (titles[lang] || '每日外语');
+  // 小学分类把「拼写练习」换成更适合小朋友的「拼字母」
+  const spellLabel = lang === 'kids' ? '拼字母' : '拼写练习';
+  const modeTabs = document.querySelectorAll('#pageLearn .mode-tab');
+  if (modeTabs[2]) modeTabs[2].textContent = spellLabel;
+  const quickBtns = document.querySelectorAll('#quickStart .task-action');
+  if (quickBtns[2]) quickBtns[2].textContent = spellLabel;
 }
 
 function switchLang(lang) {
