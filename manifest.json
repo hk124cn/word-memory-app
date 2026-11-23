@@ -1,7 +1,7 @@
 {
   "name": "每日外语 - 艾宾浩斯记忆",
   "short_name": "每日外语",
-  "description": "基于艾宾浩斯遗忘曲线的多语种单词记忆工具，支持英语和日语，四种学习模式",
+  "description": "基于艾宾浩斯遗忘曲线的多分类单词记忆工具，含职场英语、日语和小学教材单词，四种学习模式",
   "start_url": "/index.html",
   "display": "standalone",
   "orientation": "portrait-primary",
